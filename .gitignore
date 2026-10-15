@@ -1,0 +1,16 @@
+# Snapshot local do editor (o manifesto Git é WicandBlocks-project.json)
+projeto.wicandblocks.zip
+projeto.scratch.zip
+
+# Modelos 3D (arquivos grandes)
+assets/**/*.glb
+assets/**/*.gltf
+
+# Audio
+assets/**/*.mp3
+assets/**/*.wav
+assets/**/*.ogg
+
+# Sistema
+.DS_Store
+Thumbs.db
