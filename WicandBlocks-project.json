@@ -476,7 +476,7 @@
       "initialX": 0,
       "initialY": 0,
       "initialZ": 0,
-      "initialSize": 12,
+      "initialSize": 50,
       "initialDirection": 90,
       "initialVisible": true,
       "sceneId": "scene_main"
@@ -666,7 +666,7 @@
       "j_start": {
         "instanceId": "j_start",
         "blockDefId": "start",
-        "x": 820,
+        "x": 1865.52294921875,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -680,7 +680,7 @@
       "j_cprep": {
         "instanceId": "j_cprep",
         "blockDefId": "custom-call-cb_prep",
-        "x": 820,
+        "x": 1865.52294921875,
         "y": 110,
         "inputValues": {},
         "parent": "j_start",
@@ -694,7 +694,7 @@
       "j_cmundo": {
         "instanceId": "j_cmundo",
         "blockDefId": "custom-call-cb_mundo",
-        "x": 820,
+        "x": 1865.52294921875,
         "y": 170,
         "inputValues": {},
         "parent": "j_cprep",
@@ -708,7 +708,7 @@
       "j_wait": {
         "instanceId": "j_wait",
         "blockDefId": "wait",
-        "x": 820,
+        "x": 1865.52294921875,
         "y": 230,
         "inputValues": {
           "value": "0.3"
@@ -724,7 +724,7 @@
       "j_loop": {
         "instanceId": "j_loop",
         "blockDefId": "forever",
-        "x": 820,
+        "x": 1865.52294921875,
         "y": 290,
         "inputValues": {},
         "parent": "j_wait",
@@ -738,7 +738,7 @@
       "j_l1": {
         "instanceId": "j_l1",
         "blockDefId": "custom-call-cb_olhar",
-        "x": 850,
+        "x": 1895.52294921875,
         "y": 370,
         "inputValues": {},
         "parent": "j_loop",
@@ -752,7 +752,7 @@
       "j_l2": {
         "instanceId": "j_l2",
         "blockDefId": "custom-call-cb_mover",
-        "x": 850,
+        "x": 1895.52294921875,
         "y": 430,
         "inputValues": {},
         "parent": "j_l1",
@@ -766,7 +766,7 @@
       "j_l3": {
         "instanceId": "j_l3",
         "blockDefId": "custom-call-cb_grav",
-        "x": 850,
+        "x": 1895.52294921875,
         "y": 490,
         "inputValues": {},
         "parent": "j_l2",
@@ -780,7 +780,7 @@
       "j_l4": {
         "instanceId": "j_l4",
         "blockDefId": "custom-call-cb_pub",
-        "x": 850,
+        "x": 1895.52294921875,
         "y": 550,
         "inputValues": {},
         "parent": "j_l3",
@@ -794,7 +794,7 @@
       "j_l45": {
         "instanceId": "j_l45",
         "blockDefId": "custom-call-cb_cenario",
-        "x": 850,
+        "x": 1895.52294921875,
         "y": 580,
         "inputValues": {},
         "parent": "j_l4",
@@ -808,7 +808,7 @@
       "j_l5": {
         "instanceId": "j_l5",
         "blockDefId": "custom-call-cb_sel",
-        "x": 850,
+        "x": 1895.52294921875,
         "y": 610,
         "inputValues": {},
         "parent": "j_l45",
@@ -822,7 +822,7 @@
       "j_l6": {
         "instanceId": "j_l6",
         "blockDefId": "custom-call-cb_minerar",
-        "x": 850,
+        "x": 1895.52294921875,
         "y": 670,
         "inputValues": {},
         "parent": "j_l5",
@@ -836,7 +836,7 @@
       "j_l7": {
         "instanceId": "j_l7",
         "blockDefId": "custom-call-cb_colocar",
-        "x": 850,
+        "x": 1895.52294921875,
         "y": 730,
         "inputValues": {},
         "parent": "j_l6",
@@ -2183,7 +2183,7 @@
       "j_dmundo": {
         "instanceId": "j_dmundo",
         "blockDefId": "custom-def-cb_mundo",
-        "x": 440,
+        "x": 388.9013671875,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -2197,7 +2197,7 @@
       "j_fx": {
         "instanceId": "j_fx",
         "blockDefId": "for-loop",
-        "x": 440,
+        "x": 388.9013671875,
         "y": 120,
         "inputValues": {
           "varName": "gx",
@@ -2215,7 +2215,7 @@
       "j_fz": {
         "instanceId": "j_fz",
         "blockDefId": "for-loop",
-        "x": 470,
+        "x": 418.9013671875,
         "y": 190,
         "inputValues": {
           "varName": "gz",
@@ -2233,7 +2233,7 @@
       "j_wcx": {
         "instanceId": "j_wcx",
         "blockDefId": "set-global-var",
-        "x": 500,
+        "x": 448.9013671875,
         "y": 260,
         "inputValues": {
           "name": "_colX",
@@ -2250,7 +2250,7 @@
       "j_wcz": {
         "instanceId": "j_wcz",
         "blockDefId": "set-global-var",
-        "x": 500,
+        "x": 448.9013671875,
         "y": 320,
         "inputValues": {
           "name": "_colZ",
@@ -2267,7 +2267,7 @@
       "j_wcall": {
         "instanceId": "j_wcall",
         "blockDefId": "custom-call-cb_coluna",
-        "x": 500,
+        "x": 448.9013671875,
         "y": 380,
         "inputValues": {},
         "parent": "j_wcz",
@@ -2281,8 +2281,8 @@
       "j_kdef": {
         "instanceId": "j_kdef",
         "blockDefId": "custom-def-cb_coluna",
-        "x": 440,
-        "y": 520,
+        "x": 388.9013671875,
+        "y": 420,
         "inputValues": {},
         "parent": null,
         "parentSlot": null,
@@ -2295,8 +2295,8 @@
       "j_kgh": {
         "instanceId": "j_kgh",
         "blockDefId": "set-global-var",
-        "x": 440,
-        "y": 600,
+        "x": 388.9013671875,
+        "y": 500,
         "inputValues": {
           "name": "_gh"
         },
@@ -2314,8 +2314,8 @@
       "j_kreg": {
         "instanceId": "j_kreg",
         "blockDefId": "map-set-global",
-        "x": 440,
-        "y": 690,
+        "x": 388.9013671875,
+        "y": 590,
         "inputValues": {
           "map": "carregadas",
           "key": "_G._colX * 10000 + _G._colZ",
@@ -2332,8 +2332,8 @@
       "j_krnd": {
         "instanceId": "j_krnd",
         "blockDefId": "operator-round",
-        "x": 700,
-        "y": 580,
+        "x": 648.9013671875,
+        "y": 480,
         "inputValues": {},
         "parent": "j_kgh",
         "parentSlot": "input",
@@ -2350,8 +2350,8 @@
       "j_ka1": {
         "instanceId": "j_ka1",
         "blockDefId": "operator-add",
-        "x": 760,
-        "y": 580,
+        "x": 708.9013671875,
+        "y": 480,
         "inputValues": {
           "num1": "6"
         },
@@ -2370,8 +2370,8 @@
       "j_ka2": {
         "instanceId": "j_ka2",
         "blockDefId": "operator-add",
-        "x": 820,
-        "y": 580,
+        "x": 768.9013671875,
+        "y": 480,
         "inputValues": {},
         "parent": "j_ka1",
         "parentSlot": "input",
@@ -2389,8 +2389,8 @@
       "j_km1": {
         "instanceId": "j_km1",
         "blockDefId": "operator-multiply",
-        "x": 880,
-        "y": 550,
+        "x": 828.9013671875,
+        "y": 450,
         "inputValues": {
           "num1": "2"
         },
@@ -2409,8 +2409,8 @@
       "j_ks1": {
         "instanceId": "j_ks1",
         "blockDefId": "operator-mathop",
-        "x": 940,
-        "y": 550,
+        "x": 888.9013671875,
+        "y": 450,
         "inputValues": {
           "op": "sin",
           "num1": "_G._colX * 8 + _G._colZ * 6"
@@ -2427,8 +2427,8 @@
       "j_ka3": {
         "instanceId": "j_ka3",
         "blockDefId": "operator-add",
-        "x": 880,
-        "y": 620,
+        "x": 828.9013671875,
+        "y": 520,
         "inputValues": {},
         "parent": "j_ka2",
         "parentSlot": "input",
@@ -2446,8 +2446,8 @@
       "j_km2": {
         "instanceId": "j_km2",
         "blockDefId": "operator-multiply",
-        "x": 940,
-        "y": 610,
+        "x": 888.9013671875,
+        "y": 510,
         "inputValues": {
           "num1": "1"
         },
@@ -2466,8 +2466,8 @@
       "j_kc1": {
         "instanceId": "j_kc1",
         "blockDefId": "operator-mathop",
-        "x": 1000,
-        "y": 610,
+        "x": 948.9013671875,
+        "y": 510,
         "inputValues": {
           "op": "cos",
           "num1": "_G._colX * 5 - _G._colZ * 9"
@@ -2484,8 +2484,8 @@
       "j_km3": {
         "instanceId": "j_km3",
         "blockDefId": "operator-multiply",
-        "x": 940,
-        "y": 660,
+        "x": 888.9013671875,
+        "y": 560,
         "inputValues": {
           "num1": "0.5"
         },
@@ -2504,8 +2504,8 @@
       "j_ks2": {
         "instanceId": "j_ks2",
         "blockDefId": "operator-mathop",
-        "x": 1000,
-        "y": 660,
+        "x": 948.9013671875,
+        "y": 560,
         "inputValues": {
           "op": "sin",
           "num1": "(_G._colX + _G._colZ) * 3"
@@ -2522,8 +2522,8 @@
       "j_kfy": {
         "instanceId": "j_kfy",
         "blockDefId": "for-loop",
-        "x": 440,
-        "y": 750,
+        "x": 388.9013671875,
+        "y": 650,
         "inputValues": {
           "varName": "gy",
           "from": "_G._gh - 3",
@@ -2540,8 +2540,8 @@
       "j_ksx": {
         "instanceId": "j_ksx",
         "blockDefId": "set-global-var",
-        "x": 470,
-        "y": 790,
+        "x": 418.9013671875,
+        "y": 690,
         "inputValues": {
           "name": "_gx",
           "value": "_G._colX"
@@ -2557,8 +2557,8 @@
       "j_ksy": {
         "instanceId": "j_ksy",
         "blockDefId": "set-global-var",
-        "x": 470,
-        "y": 850,
+        "x": 418.9013671875,
+        "y": 750,
         "inputValues": {
           "name": "_gy",
           "value": "(gy)"
@@ -2574,8 +2574,8 @@
       "j_ksz": {
         "instanceId": "j_ksz",
         "blockDefId": "set-global-var",
-        "x": 470,
-        "y": 910,
+        "x": 418.9013671875,
+        "y": 810,
         "inputValues": {
           "name": "_gz",
           "value": "_G._colZ"
@@ -2591,8 +2591,8 @@
       "j_kif": {
         "instanceId": "j_kif",
         "blockDefId": "if-else",
-        "x": 470,
-        "y": 970,
+        "x": 418.9013671875,
+        "y": 870,
         "inputValues": {},
         "parent": "j_ksz",
         "parentSlot": "next",
@@ -2605,8 +2605,8 @@
       "j_keq": {
         "instanceId": "j_keq",
         "blockDefId": "operator-equals",
-        "x": 500,
-        "y": 950,
+        "x": 448.9013671875,
+        "y": 850,
         "inputValues": {
           "num1": "(gy)",
           "num2": "_G._gh"
@@ -2622,8 +2622,8 @@
       "j_kifm": {
         "instanceId": "j_kifm",
         "blockDefId": "if-else",
-        "x": 500,
-        "y": 1030,
+        "x": 448.9013671875,
+        "y": 930,
         "inputValues": {},
         "parent": "j_kif",
         "parentSlot": "inside1",
@@ -2636,8 +2636,8 @@
       "j_kgtm2": {
         "instanceId": "j_kgtm2",
         "blockDefId": "operator-gt",
-        "x": 530,
-        "y": 1010,
+        "x": 478.9013671875,
+        "y": 910,
         "inputValues": {
           "num1": "_G._gh",
           "num2": "7"
@@ -2653,8 +2653,8 @@
       "j_kcpm": {
         "instanceId": "j_kcpm",
         "blockDefId": "create-clone",
-        "x": 530,
-        "y": 1090,
+        "x": 478.9013671875,
+        "y": 990,
         "inputValues": {
           "target": "Pedra"
         },
@@ -2669,8 +2669,8 @@
       "j_kcg": {
         "instanceId": "j_kcg",
         "blockDefId": "create-clone",
-        "x": 530,
-        "y": 1160,
+        "x": 478.9013671875,
+        "y": 1060,
         "inputValues": {
           "target": "Grama"
         },
@@ -2685,8 +2685,8 @@
       "j_kif2": {
         "instanceId": "j_kif2",
         "blockDefId": "if-else",
-        "x": 500,
-        "y": 1250,
+        "x": 448.9013671875,
+        "y": 1150,
         "inputValues": {},
         "parent": "j_kif",
         "parentSlot": "inside2",
@@ -2699,8 +2699,8 @@
       "j_kgt": {
         "instanceId": "j_kgt",
         "blockDefId": "operator-gt",
-        "x": 530,
-        "y": 1230,
+        "x": 478.9013671875,
+        "y": 1130,
         "inputValues": {
           "num1": "(gy)",
           "num2": "_G._gh - 2"
@@ -2716,8 +2716,8 @@
       "j_kct": {
         "instanceId": "j_kct",
         "blockDefId": "create-clone",
-        "x": 530,
-        "y": 1310,
+        "x": 478.9013671875,
+        "y": 1210,
         "inputValues": {
           "target": "Terra"
         },
@@ -2732,8 +2732,8 @@
       "j_kcp": {
         "instanceId": "j_kcp",
         "blockDefId": "create-clone",
-        "x": 530,
-        "y": 1380,
+        "x": 478.9013671875,
+        "y": 1280,
         "inputValues": {
           "target": "Pedra"
         },
@@ -2748,8 +2748,8 @@
       "j_karv": {
         "instanceId": "j_karv",
         "blockDefId": "if",
-        "x": 440,
-        "y": 1480,
+        "x": 388.9013671875,
+        "y": 1380,
         "inputValues": {},
         "parent": "j_kfy",
         "parentSlot": "next",
@@ -2762,8 +2762,8 @@
       "j_kand": {
         "instanceId": "j_kand",
         "blockDefId": "operator-and",
-        "x": 470,
-        "y": 1460,
+        "x": 418.9013671875,
+        "y": 1360,
         "inputValues": {},
         "parent": "j_karv",
         "parentSlot": "condition",
@@ -2780,8 +2780,8 @@
       "j_knmt": {
         "instanceId": "j_knmt",
         "blockDefId": "operator-not",
-        "x": 540,
-        "y": 1440,
+        "x": 488.9013671875,
+        "y": 1340,
         "inputValues": {},
         "parent": "j_kand",
         "parentSlot": "input",
@@ -2798,8 +2798,8 @@
       "j_kgtm": {
         "instanceId": "j_kgtm",
         "blockDefId": "operator-gt",
-        "x": 610,
-        "y": 1440,
+        "x": 558.9013671875,
+        "y": 1340,
         "inputValues": {
           "num1": "_G._gh",
           "num2": "7"
@@ -2816,8 +2816,8 @@
       "j_kgtr": {
         "instanceId": "j_kgtr",
         "blockDefId": "operator-gt",
-        "x": 540,
-        "y": 1500,
+        "x": 488.9013671875,
+        "y": 1400,
         "inputValues": {
           "num2": "0.99"
         },
@@ -2836,8 +2836,8 @@
       "j_ksr": {
         "instanceId": "j_ksr",
         "blockDefId": "operator-mathop",
-        "x": 620,
-        "y": 1500,
+        "x": 568.9013671875,
+        "y": 1400,
         "inputValues": {
           "op": "sin",
           "num1": "_G._colX * 127 + _G._colZ * 311"
@@ -2854,8 +2854,8 @@
       "j_kacall": {
         "instanceId": "j_kacall",
         "blockDefId": "custom-call-cb_arvore",
-        "x": 470,
-        "y": 1560,
+        "x": 418.9013671875,
+        "y": 1460,
         "inputValues": {},
         "parent": "j_karv",
         "parentSlot": "inside1",
@@ -2868,8 +2868,8 @@
       "j_adef": {
         "instanceId": "j_adef",
         "blockDefId": "custom-def-cb_arvore",
-        "x": 440,
-        "y": 1700,
+        "x": 388.9013671875,
+        "y": 1471,
         "inputValues": {},
         "parent": null,
         "parentSlot": null,
@@ -2882,8 +2882,8 @@
       "j_aft": {
         "instanceId": "j_aft",
         "blockDefId": "for-loop",
-        "x": 440,
-        "y": 1780,
+        "x": 388.9013671875,
+        "y": 1551,
         "inputValues": {
           "varName": "ty",
           "from": "1",
@@ -2900,8 +2900,8 @@
       "j_atx": {
         "instanceId": "j_atx",
         "blockDefId": "set-global-var",
-        "x": 470,
-        "y": 1850,
+        "x": 418.9013671875,
+        "y": 1621,
         "inputValues": {
           "name": "_gx",
           "value": "_G._colX"
@@ -2917,8 +2917,8 @@
       "j_aty": {
         "instanceId": "j_aty",
         "blockDefId": "set-global-var",
-        "x": 470,
-        "y": 1910,
+        "x": 418.9013671875,
+        "y": 1681,
         "inputValues": {
           "name": "_gy",
           "value": "_G._gh + (ty)"
@@ -2934,8 +2934,8 @@
       "j_atz": {
         "instanceId": "j_atz",
         "blockDefId": "set-global-var",
-        "x": 470,
-        "y": 1970,
+        "x": 418.9013671875,
+        "y": 1741,
         "inputValues": {
           "name": "_gz",
           "value": "_G._colZ"
@@ -2951,8 +2951,8 @@
       "j_atc": {
         "instanceId": "j_atc",
         "blockDefId": "create-clone",
-        "x": 470,
-        "y": 2030,
+        "x": 418.9013671875,
+        "y": 1801,
         "inputValues": {
           "target": "Tronco"
         },
@@ -2967,8 +2967,8 @@
       "j_aflx": {
         "instanceId": "j_aflx",
         "blockDefId": "for-loop",
-        "x": 440,
-        "y": 2130,
+        "x": 388.9013671875,
+        "y": 1901,
         "inputValues": {
           "varName": "lx",
           "from": "-1",
@@ -2985,8 +2985,8 @@
       "j_aflz": {
         "instanceId": "j_aflz",
         "blockDefId": "for-loop",
-        "x": 470,
-        "y": 2200,
+        "x": 418.9013671875,
+        "y": 1971,
         "inputValues": {
           "varName": "lz",
           "from": "-1",
@@ -3003,8 +3003,8 @@
       "j_afly": {
         "instanceId": "j_afly",
         "blockDefId": "for-loop",
-        "x": 500,
-        "y": 2270,
+        "x": 448.9013671875,
+        "y": 2041,
         "inputValues": {
           "varName": "ly",
           "from": "4",
@@ -3021,8 +3021,8 @@
       "j_alx": {
         "instanceId": "j_alx",
         "blockDefId": "set-global-var",
-        "x": 530,
-        "y": 2340,
+        "x": 478.9013671875,
+        "y": 2111,
         "inputValues": {
           "name": "_gx",
           "value": "_G._colX + (lx)"
@@ -3038,8 +3038,8 @@
       "j_aly": {
         "instanceId": "j_aly",
         "blockDefId": "set-global-var",
-        "x": 530,
-        "y": 2400,
+        "x": 478.9013671875,
+        "y": 2171,
         "inputValues": {
           "name": "_gy",
           "value": "_G._gh + (ly)"
@@ -3055,8 +3055,8 @@
       "j_alz": {
         "instanceId": "j_alz",
         "blockDefId": "set-global-var",
-        "x": 530,
-        "y": 2460,
+        "x": 478.9013671875,
+        "y": 2231,
         "inputValues": {
           "name": "_gz",
           "value": "_G._colZ + (lz)"
@@ -3072,8 +3072,8 @@
       "j_alc": {
         "instanceId": "j_alc",
         "blockDefId": "create-clone",
-        "x": 530,
-        "y": 2520,
+        "x": 478.9013671875,
+        "y": 2291,
         "inputValues": {
           "target": "Folha"
         },
@@ -3088,7 +3088,7 @@
       "j_cdef": {
         "instanceId": "j_cdef",
         "blockDefId": "custom-def-cb_cenario",
-        "x": 4600,
+        "x": 7569.04931640625,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -3102,7 +3102,7 @@
       "j_cncx": {
         "instanceId": "j_cncx",
         "blockDefId": "set-var",
-        "x": 4600,
+        "x": 7569.04931640625,
         "y": 120,
         "inputValues": {
           "name": "_ncx"
@@ -3121,7 +3121,7 @@
       "j_crx": {
         "instanceId": "j_crx",
         "blockDefId": "operator-round",
-        "x": 4840,
+        "x": 7809.04931640625,
         "y": 100,
         "inputValues": {
           "num1": "_x / 100"
@@ -3138,7 +3138,7 @@
       "j_cncz": {
         "instanceId": "j_cncz",
         "blockDefId": "set-var",
-        "x": 4600,
+        "x": 7569.04931640625,
         "y": 180,
         "inputValues": {
           "name": "_ncz"
@@ -3157,7 +3157,7 @@
       "j_crz": {
         "instanceId": "j_crz",
         "blockDefId": "operator-round",
-        "x": 4840,
+        "x": 7809.04931640625,
         "y": 160,
         "inputValues": {
           "num1": "_z / 100"
@@ -3174,7 +3174,7 @@
       "j_cpx": {
         "instanceId": "j_cpx",
         "blockDefId": "set-global-var",
-        "x": 4600,
+        "x": 7569.04931640625,
         "y": 240,
         "inputValues": {
           "name": "_pcx",
@@ -3191,7 +3191,7 @@
       "j_cpz": {
         "instanceId": "j_cpz",
         "blockDefId": "set-global-var",
-        "x": 4600,
+        "x": 7569.04931640625,
         "y": 300,
         "inputValues": {
           "name": "_pcz",
@@ -3208,7 +3208,7 @@
       "j_cif": {
         "instanceId": "j_cif",
         "blockDefId": "if",
-        "x": 4600,
+        "x": 7569.04931640625,
         "y": 380,
         "inputValues": {},
         "parent": "j_cpz",
@@ -3222,7 +3222,7 @@
       "j_cor": {
         "instanceId": "j_cor",
         "blockDefId": "operator-or",
-        "x": 4630,
+        "x": 7599.04931640625,
         "y": 360,
         "inputValues": {},
         "parent": "j_cif",
@@ -3240,7 +3240,7 @@
       "j_cnex": {
         "instanceId": "j_cnex",
         "blockDefId": "operator-not",
-        "x": 4700,
+        "x": 7669.04931640625,
         "y": 340,
         "inputValues": {},
         "parent": "j_cor",
@@ -3258,7 +3258,7 @@
       "j_ceqx": {
         "instanceId": "j_ceqx",
         "blockDefId": "operator-equals",
-        "x": 4770,
+        "x": 7739.04931640625,
         "y": 340,
         "inputValues": {
           "num1": "_ncx",
@@ -3276,7 +3276,7 @@
       "j_cnez": {
         "instanceId": "j_cnez",
         "blockDefId": "operator-not",
-        "x": 4700,
+        "x": 7669.04931640625,
         "y": 390,
         "inputValues": {},
         "parent": "j_cor",
@@ -3294,7 +3294,7 @@
       "j_ceqz": {
         "instanceId": "j_ceqz",
         "blockDefId": "operator-equals",
-        "x": 4770,
+        "x": 7739.04931640625,
         "y": 390,
         "inputValues": {
           "num1": "_ncz",
@@ -3312,7 +3312,7 @@
       "j_cdx": {
         "instanceId": "j_cdx",
         "blockDefId": "for-loop",
-        "x": 4630,
+        "x": 7599.04931640625,
         "y": 460,
         "inputValues": {
           "varName": "dx",
@@ -3330,7 +3330,7 @@
       "j_cdz": {
         "instanceId": "j_cdz",
         "blockDefId": "for-loop",
-        "x": 4660,
+        "x": 7629.04931640625,
         "y": 530,
         "inputValues": {
           "varName": "dz",
@@ -3348,7 +3348,7 @@
       "j_cdif": {
         "instanceId": "j_cdif",
         "blockDefId": "if",
-        "x": 4690,
+        "x": 7659.04931640625,
         "y": 600,
         "inputValues": {},
         "parent": "j_cdz",
@@ -3362,7 +3362,7 @@
       "j_cdor": {
         "instanceId": "j_cdor",
         "blockDefId": "operator-or",
-        "x": 4720,
+        "x": 7689.04931640625,
         "y": 580,
         "inputValues": {},
         "parent": "j_cdif",
@@ -3380,7 +3380,7 @@
       "j_cdgx": {
         "instanceId": "j_cdgx",
         "blockDefId": "operator-gt",
-        "x": 4790,
+        "x": 7759.04931640625,
         "y": 560,
         "inputValues": {
           "num2": "12"
@@ -3400,7 +3400,7 @@
       "j_cdax": {
         "instanceId": "j_cdax",
         "blockDefId": "operator-mathop",
-        "x": 4860,
+        "x": 7829.04931640625,
         "y": 560,
         "inputValues": {
           "op": "abs",
@@ -3418,7 +3418,7 @@
       "j_cdgz": {
         "instanceId": "j_cdgz",
         "blockDefId": "operator-gt",
-        "x": 4790,
+        "x": 7759.04931640625,
         "y": 610,
         "inputValues": {
           "num2": "12"
@@ -3438,7 +3438,7 @@
       "j_cdaz": {
         "instanceId": "j_cdaz",
         "blockDefId": "operator-mathop",
-        "x": 4860,
+        "x": 7829.04931640625,
         "y": 610,
         "inputValues": {
           "op": "abs",
@@ -3456,7 +3456,7 @@
       "j_cdel": {
         "instanceId": "j_cdel",
         "blockDefId": "map-delete-global",
-        "x": 4720,
+        "x": 7689.04931640625,
         "y": 670,
         "inputValues": {
           "map": "carregadas",
@@ -3473,7 +3473,7 @@
       "j_cgx": {
         "instanceId": "j_cgx",
         "blockDefId": "for-loop",
-        "x": 4630,
+        "x": 7599.04931640625,
         "y": 790,
         "inputValues": {
           "varName": "gx",
@@ -3491,7 +3491,7 @@
       "j_cgz": {
         "instanceId": "j_cgz",
         "blockDefId": "for-loop",
-        "x": 4660,
+        "x": 7629.04931640625,
         "y": 860,
         "inputValues": {
           "varName": "gz",
@@ -3509,7 +3509,7 @@
       "j_cgif": {
         "instanceId": "j_cgif",
         "blockDefId": "if",
-        "x": 4690,
+        "x": 7659.04931640625,
         "y": 930,
         "inputValues": {},
         "parent": "j_cgz",
@@ -3523,7 +3523,7 @@
       "j_cnhas": {
         "instanceId": "j_cnhas",
         "blockDefId": "operator-not",
-        "x": 4720,
+        "x": 7689.04931640625,
         "y": 910,
         "inputValues": {},
         "parent": "j_cgif",
@@ -3540,7 +3540,7 @@
       "j_chas": {
         "instanceId": "j_chas",
         "blockDefId": "map-has-global",
-        "x": 4790,
+        "x": 7759.04931640625,
         "y": 910,
         "inputValues": {
           "map": "carregadas",
@@ -3558,7 +3558,7 @@
       "j_cgsx": {
         "instanceId": "j_cgsx",
         "blockDefId": "set-global-var",
-        "x": 4720,
+        "x": 7689.04931640625,
         "y": 1000,
         "inputValues": {
           "name": "_colX",
@@ -3575,7 +3575,7 @@
       "j_cgsz": {
         "instanceId": "j_cgsz",
         "blockDefId": "set-global-var",
-        "x": 4720,
+        "x": 7689.04931640625,
         "y": 1060,
         "inputValues": {
           "name": "_colZ",
@@ -3592,7 +3592,7 @@
       "j_cgcall": {
         "instanceId": "j_cgcall",
         "blockDefId": "custom-call-cb_coluna",
-        "x": 4720,
+        "x": 7689.04931640625,
         "y": 1120,
         "inputValues": {},
         "parent": "j_cgsz",
@@ -3606,7 +3606,7 @@
       "j_clx": {
         "instanceId": "j_clx",
         "blockDefId": "set-var",
-        "x": 4630,
+        "x": 7599.04931640625,
         "y": 1220,
         "inputValues": {
           "name": "_lcx",
@@ -3623,7 +3623,7 @@
       "j_clz": {
         "instanceId": "j_clz",
         "blockDefId": "set-var",
-        "x": 4630,
+        "x": 7599.04931640625,
         "y": 1280,
         "inputValues": {
           "name": "_lcz",
@@ -3640,7 +3640,7 @@
       "j_dolhar": {
         "instanceId": "j_dolhar",
         "blockDefId": "custom-def-cb_olhar",
-        "x": 1300,
+        "x": 2135.52294921875,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -3654,7 +3654,7 @@
       "j_cyaw": {
         "instanceId": "j_cyaw",
         "blockDefId": "change-var",
-        "x": 1300,
+        "x": 2135.52294921875,
         "y": 120,
         "inputValues": {
           "name": "_yaw"
@@ -3673,7 +3673,7 @@
       "j_mdx2": {
         "instanceId": "j_mdx2",
         "blockDefId": "operator-multiply",
-        "x": 1540,
+        "x": 2375.52294921875,
         "y": 100,
         "inputValues": {
           "num2": "0.25"
@@ -3693,7 +3693,7 @@
       "j_mdx": {
         "instanceId": "j_mdx",
         "blockDefId": "mouse-dx",
-        "x": 1600,
+        "x": 2435.52294921875,
         "y": 100,
         "inputValues": {},
         "parent": "j_mdx2",
@@ -3708,7 +3708,7 @@
       "j_cpit": {
         "instanceId": "j_cpit",
         "blockDefId": "change-var",
-        "x": 1300,
+        "x": 2135.52294921875,
         "y": 180,
         "inputValues": {
           "name": "_pitch"
@@ -3727,7 +3727,7 @@
       "j_mdy2": {
         "instanceId": "j_mdy2",
         "blockDefId": "operator-multiply",
-        "x": 1540,
+        "x": 2375.52294921875,
         "y": 160,
         "inputValues": {
           "num2": "-0.25"
@@ -3747,7 +3747,7 @@
       "j_mdy": {
         "instanceId": "j_mdy",
         "blockDefId": "mouse-dy",
-        "x": 1600,
+        "x": 2435.52294921875,
         "y": 160,
         "inputValues": {},
         "parent": "j_mdy2",
@@ -3762,7 +3762,7 @@
       "j_ipgt": {
         "instanceId": "j_ipgt",
         "blockDefId": "if",
-        "x": 1300,
+        "x": 2135.52294921875,
         "y": 250,
         "inputValues": {},
         "parent": "j_cpit",
@@ -3776,7 +3776,7 @@
       "j_pgt": {
         "instanceId": "j_pgt",
         "blockDefId": "operator-gt",
-        "x": 1330,
+        "x": 2165.52294921875,
         "y": 230,
         "inputValues": {
           "num1": "_pitch",
@@ -3793,7 +3793,7 @@
       "j_spgt": {
         "instanceId": "j_spgt",
         "blockDefId": "set-var",
-        "x": 1330,
+        "x": 2165.52294921875,
         "y": 300,
         "inputValues": {
           "name": "_pitch",
@@ -3810,7 +3810,7 @@
       "j_iplt": {
         "instanceId": "j_iplt",
         "blockDefId": "if",
-        "x": 1300,
+        "x": 2135.52294921875,
         "y": 390,
         "inputValues": {},
         "parent": "j_ipgt",
@@ -3824,7 +3824,7 @@
       "j_plt": {
         "instanceId": "j_plt",
         "blockDefId": "operator-lt",
-        "x": 1330,
+        "x": 2165.52294921875,
         "y": 370,
         "inputValues": {
           "num1": "_pitch",
@@ -3841,7 +3841,7 @@
       "j_splt": {
         "instanceId": "j_splt",
         "blockDefId": "set-var",
-        "x": 1330,
+        "x": 2165.52294921875,
         "y": 440,
         "inputValues": {
           "name": "_pitch",
@@ -3858,8 +3858,8 @@
       "j_dmover": {
         "instanceId": "j_dmover",
         "blockDefId": "custom-def-cb_mover",
-        "x": 1300,
-        "y": 560,
+        "x": 2135.52294921875,
+        "y": 492,
         "inputValues": {},
         "parent": null,
         "parentSlot": null,
@@ -3872,8 +3872,8 @@
       "j_ssin": {
         "instanceId": "j_ssin",
         "blockDefId": "set-var",
-        "x": 1300,
-        "y": 640,
+        "x": 2135.52294921875,
+        "y": 572,
         "inputValues": {
           "name": "_sinY"
         },
@@ -3891,8 +3891,8 @@
       "j_bsin": {
         "instanceId": "j_bsin",
         "blockDefId": "operator-mathop",
-        "x": 1540,
-        "y": 620,
+        "x": 2375.52294921875,
+        "y": 552,
         "inputValues": {
           "op": "sin",
           "num1": "_yaw"
@@ -3909,8 +3909,8 @@
       "j_scos": {
         "instanceId": "j_scos",
         "blockDefId": "set-var",
-        "x": 1300,
-        "y": 700,
+        "x": 2135.52294921875,
+        "y": 632,
         "inputValues": {
           "name": "_cosY"
         },
@@ -3928,8 +3928,8 @@
       "j_bcos": {
         "instanceId": "j_bcos",
         "blockDefId": "operator-mathop",
-        "x": 1540,
-        "y": 680,
+        "x": 2375.52294921875,
+        "y": 612,
         "inputValues": {
           "op": "cos",
           "num1": "_yaw"
@@ -3946,8 +3946,8 @@
       "j_zdx": {
         "instanceId": "j_zdx",
         "blockDefId": "set-var",
-        "x": 1300,
-        "y": 760,
+        "x": 2135.52294921875,
+        "y": 692,
         "inputValues": {
           "name": "_dx",
           "value": "0"
@@ -3963,8 +3963,8 @@
       "j_zdz": {
         "instanceId": "j_zdz",
         "blockDefId": "set-var",
-        "x": 1300,
-        "y": 820,
+        "x": 2135.52294921875,
+        "y": 752,
         "inputValues": {
           "name": "_dz",
           "value": "0"
@@ -3980,8 +3980,8 @@
       "j_iw": {
         "instanceId": "j_iw",
         "blockDefId": "if",
-        "x": 1300,
-        "y": 890,
+        "x": 2135.52294921875,
+        "y": 822,
         "inputValues": {},
         "parent": "j_zdz",
         "parentSlot": "next",
@@ -3994,8 +3994,8 @@
       "j_kw": {
         "instanceId": "j_kw",
         "blockDefId": "key-pressed",
-        "x": 1330,
-        "y": 870,
+        "x": 2165.52294921875,
+        "y": 802,
         "inputValues": {
           "key": "w"
         },
@@ -4010,8 +4010,8 @@
       "j_wdx": {
         "instanceId": "j_wdx",
         "blockDefId": "change-var",
-        "x": 1330,
-        "y": 940,
+        "x": 2165.52294921875,
+        "y": 872,
         "inputValues": {
           "name": "_dx",
           "value": "10 * _sinY"
@@ -4027,8 +4027,8 @@
       "j_wdz": {
         "instanceId": "j_wdz",
         "blockDefId": "change-var",
-        "x": 1330,
-        "y": 1000,
+        "x": 2165.52294921875,
+        "y": 932,
         "inputValues": {
           "name": "_dz",
           "value": "-10 * _cosY"
@@ -4044,8 +4044,8 @@
       "j_is": {
         "instanceId": "j_is",
         "blockDefId": "if",
-        "x": 1300,
-        "y": 1090,
+        "x": 2135.52294921875,
+        "y": 1022,
         "inputValues": {},
         "parent": "j_iw",
         "parentSlot": "next",
@@ -4058,8 +4058,8 @@
       "j_ks": {
         "instanceId": "j_ks",
         "blockDefId": "key-pressed",
-        "x": 1330,
-        "y": 1070,
+        "x": 2165.52294921875,
+        "y": 1002,
         "inputValues": {
           "key": "s"
         },
@@ -4074,8 +4074,8 @@
       "j_sdx": {
         "instanceId": "j_sdx",
         "blockDefId": "change-var",
-        "x": 1330,
-        "y": 1140,
+        "x": 2165.52294921875,
+        "y": 1072,
         "inputValues": {
           "name": "_dx",
           "value": "-10 * _sinY"
@@ -4091,8 +4091,8 @@
       "j_sdz": {
         "instanceId": "j_sdz",
         "blockDefId": "change-var",
-        "x": 1330,
-        "y": 1200,
+        "x": 2165.52294921875,
+        "y": 1132,
         "inputValues": {
           "name": "_dz",
           "value": "10 * _cosY"
@@ -4108,8 +4108,8 @@
       "j_id": {
         "instanceId": "j_id",
         "blockDefId": "if",
-        "x": 1300,
-        "y": 1290,
+        "x": 2135.52294921875,
+        "y": 1222,
         "inputValues": {},
         "parent": "j_is",
         "parentSlot": "next",
@@ -4122,8 +4122,8 @@
       "j_kd": {
         "instanceId": "j_kd",
         "blockDefId": "key-pressed",
-        "x": 1330,
-        "y": 1270,
+        "x": 2165.52294921875,
+        "y": 1202,
         "inputValues": {
           "key": "d"
         },
@@ -4138,8 +4138,8 @@
       "j_ddx": {
         "instanceId": "j_ddx",
         "blockDefId": "change-var",
-        "x": 1330,
-        "y": 1340,
+        "x": 2165.52294921875,
+        "y": 1272,
         "inputValues": {
           "name": "_dx",
           "value": "10 * _cosY"
@@ -4155,8 +4155,8 @@
       "j_ddz": {
         "instanceId": "j_ddz",
         "blockDefId": "change-var",
-        "x": 1330,
-        "y": 1400,
+        "x": 2165.52294921875,
+        "y": 1332,
         "inputValues": {
           "name": "_dz",
           "value": "10 * _sinY"
@@ -4172,8 +4172,8 @@
       "j_ia": {
         "instanceId": "j_ia",
         "blockDefId": "if",
-        "x": 1300,
-        "y": 1490,
+        "x": 2135.52294921875,
+        "y": 1422,
         "inputValues": {},
         "parent": "j_id",
         "parentSlot": "next",
@@ -4186,8 +4186,8 @@
       "j_ka": {
         "instanceId": "j_ka",
         "blockDefId": "key-pressed",
-        "x": 1330,
-        "y": 1470,
+        "x": 2165.52294921875,
+        "y": 1402,
         "inputValues": {
           "key": "a"
         },
@@ -4202,8 +4202,8 @@
       "j_adx": {
         "instanceId": "j_adx",
         "blockDefId": "change-var",
-        "x": 1330,
-        "y": 1540,
+        "x": 2165.52294921875,
+        "y": 1472,
         "inputValues": {
           "name": "_dx",
           "value": "-10 * _cosY"
@@ -4219,8 +4219,8 @@
       "j_adz": {
         "instanceId": "j_adz",
         "blockDefId": "change-var",
-        "x": 1330,
-        "y": 1600,
+        "x": 2165.52294921875,
+        "y": 1532,
         "inputValues": {
           "name": "_dz",
           "value": "-10 * _sinY"
@@ -4236,8 +4236,8 @@
       "j_spes": {
         "instanceId": "j_spes",
         "blockDefId": "set-var",
-        "x": 1300,
-        "y": 1690,
+        "x": 2135.52294921875,
+        "y": 1622,
         "inputValues": {
           "name": "_pes",
           "value": "_y - 160"
@@ -4253,8 +4253,8 @@
       "j_stx": {
         "instanceId": "j_stx",
         "blockDefId": "set-var",
-        "x": 1300,
-        "y": 1750,
+        "x": 2135.52294921875,
+        "y": 1682,
         "inputValues": {
           "name": "_tx",
           "value": "_x + _dx"
@@ -4270,8 +4270,8 @@
       "j_ilx": {
         "instanceId": "j_ilx",
         "blockDefId": "if-else",
-        "x": 1300,
-        "y": 1810,
+        "x": 2135.52294921875,
+        "y": 1742,
         "inputValues": {},
         "parent": "j_stx",
         "parentSlot": "next",
@@ -4284,8 +4284,8 @@
       "j_gdx": {
         "instanceId": "j_gdx",
         "blockDefId": "operator-gt",
-        "x": 1330,
-        "y": 1790,
+        "x": 2165.52294921875,
+        "y": 1722,
         "inputValues": {
           "num1": "_dx",
           "num2": "0"
@@ -4301,8 +4301,8 @@
       "j_slxp": {
         "instanceId": "j_slxp",
         "blockDefId": "set-var",
-        "x": 1330,
-        "y": 1870,
+        "x": 2165.52294921875,
+        "y": 1802,
         "inputValues": {
           "name": "_lx",
           "value": "_tx + 30"
@@ -4318,8 +4318,8 @@
       "j_slxm": {
         "instanceId": "j_slxm",
         "blockDefId": "set-var",
-        "x": 1330,
-        "y": 1940,
+        "x": 2165.52294921875,
+        "y": 1872,
         "inputValues": {
           "name": "_lx",
           "value": "_tx - 30"
@@ -4335,8 +4335,8 @@
       "j_icx": {
         "instanceId": "j_icx",
         "blockDefId": "if",
-        "x": 1300,
-        "y": 2030,
+        "x": 2135.52294921875,
+        "y": 1962,
         "inputValues": {},
         "parent": "j_ilx",
         "parentSlot": "next",
@@ -4349,8 +4349,8 @@
       "j_andx": {
         "instanceId": "j_andx",
         "blockDefId": "operator-and",
-        "x": 1330,
-        "y": 2010,
+        "x": 2165.52294921875,
+        "y": 1942,
         "inputValues": {},
         "parent": "j_icx",
         "parentSlot": "condition",
@@ -4367,8 +4367,8 @@
       "j_nx1": {
         "instanceId": "j_nx1",
         "blockDefId": "operator-not",
-        "x": 1400,
-        "y": 1990,
+        "x": 2235.52294921875,
+        "y": 1922,
         "inputValues": {},
         "parent": "j_andx",
         "parentSlot": "input",
@@ -4385,8 +4385,8 @@
       "j_vx1": {
         "instanceId": "j_vx1",
         "blockDefId": "map-has-global",
-        "x": 1470,
-        "y": 1990,
+        "x": 2305.52294921875,
+        "y": 1922,
         "inputValues": {
           "map": "solidos",
           "key": "((Math.round((_lx) / 100) + 1024) * 2048 + (Math.round((_y) / 100) + 1024)) * 2048 + (Math.round((_z) / 100) + 1024)"
@@ -4404,8 +4404,8 @@
       "j_nx2": {
         "instanceId": "j_nx2",
         "blockDefId": "operator-not",
-        "x": 1400,
-        "y": 2040,
+        "x": 2235.52294921875,
+        "y": 1972,
         "inputValues": {},
         "parent": "j_andx",
         "parentSlot": "input",
@@ -4422,8 +4422,8 @@
       "j_vx2": {
         "instanceId": "j_vx2",
         "blockDefId": "map-has-global",
-        "x": 1470,
-        "y": 2040,
+        "x": 2305.52294921875,
+        "y": 1972,
         "inputValues": {
           "map": "solidos",
           "key": "((Math.round((_lx) / 100) + 1024) * 2048 + (Math.round((_pes + 10) / 100) + 1024)) * 2048 + (Math.round((_z) / 100) + 1024)"
@@ -4441,8 +4441,8 @@
       "j_apx": {
         "instanceId": "j_apx",
         "blockDefId": "set-var",
-        "x": 1330,
-        "y": 2090,
+        "x": 2165.52294921875,
+        "y": 2022,
         "inputValues": {
           "name": "_x",
           "value": "_tx"
@@ -4458,8 +4458,8 @@
       "j_stz": {
         "instanceId": "j_stz",
         "blockDefId": "set-var",
-        "x": 1300,
-        "y": 2180,
+        "x": 2135.52294921875,
+        "y": 2112,
         "inputValues": {
           "name": "_tz",
           "value": "_z + _dz"
@@ -4475,8 +4475,8 @@
       "j_ilz": {
         "instanceId": "j_ilz",
         "blockDefId": "if-else",
-        "x": 1300,
-        "y": 2240,
+        "x": 2135.52294921875,
+        "y": 2172,
         "inputValues": {},
         "parent": "j_stz",
         "parentSlot": "next",
@@ -4489,8 +4489,8 @@
       "j_gdz": {
         "instanceId": "j_gdz",
         "blockDefId": "operator-gt",
-        "x": 1330,
-        "y": 2220,
+        "x": 2165.52294921875,
+        "y": 2152,
         "inputValues": {
           "num1": "_dz",
           "num2": "0"
@@ -4506,8 +4506,8 @@
       "j_slzp": {
         "instanceId": "j_slzp",
         "blockDefId": "set-var",
-        "x": 1330,
-        "y": 2300,
+        "x": 2165.52294921875,
+        "y": 2232,
         "inputValues": {
           "name": "_lz",
           "value": "_tz + 30"
@@ -4523,8 +4523,8 @@
       "j_slzm": {
         "instanceId": "j_slzm",
         "blockDefId": "set-var",
-        "x": 1330,
-        "y": 2370,
+        "x": 2165.52294921875,
+        "y": 2302,
         "inputValues": {
           "name": "_lz",
           "value": "_tz - 30"
@@ -4540,8 +4540,8 @@
       "j_icz": {
         "instanceId": "j_icz",
         "blockDefId": "if",
-        "x": 1300,
-        "y": 2460,
+        "x": 2135.52294921875,
+        "y": 2392,
         "inputValues": {},
         "parent": "j_ilz",
         "parentSlot": "next",
@@ -4554,8 +4554,8 @@
       "j_andz": {
         "instanceId": "j_andz",
         "blockDefId": "operator-and",
-        "x": 1330,
-        "y": 2440,
+        "x": 2165.52294921875,
+        "y": 2372,
         "inputValues": {},
         "parent": "j_icz",
         "parentSlot": "condition",
@@ -4572,8 +4572,8 @@
       "j_nz1": {
         "instanceId": "j_nz1",
         "blockDefId": "operator-not",
-        "x": 1400,
-        "y": 2420,
+        "x": 2235.52294921875,
+        "y": 2352,
         "inputValues": {},
         "parent": "j_andz",
         "parentSlot": "input",
@@ -4590,8 +4590,8 @@
       "j_vz1": {
         "instanceId": "j_vz1",
         "blockDefId": "map-has-global",
-        "x": 1470,
-        "y": 2420,
+        "x": 2305.52294921875,
+        "y": 2352,
         "inputValues": {
           "map": "solidos",
           "key": "((Math.round((_x) / 100) + 1024) * 2048 + (Math.round((_y) / 100) + 1024)) * 2048 + (Math.round((_lz) / 100) + 1024)"
@@ -4609,8 +4609,8 @@
       "j_nz2": {
         "instanceId": "j_nz2",
         "blockDefId": "operator-not",
-        "x": 1400,
-        "y": 2470,
+        "x": 2235.52294921875,
+        "y": 2402,
         "inputValues": {},
         "parent": "j_andz",
         "parentSlot": "input",
@@ -4627,8 +4627,8 @@
       "j_vz2": {
         "instanceId": "j_vz2",
         "blockDefId": "map-has-global",
-        "x": 1470,
-        "y": 2470,
+        "x": 2305.52294921875,
+        "y": 2402,
         "inputValues": {
           "map": "solidos",
           "key": "((Math.round((_x) / 100) + 1024) * 2048 + (Math.round((_pes + 10) / 100) + 1024)) * 2048 + (Math.round((_lz) / 100) + 1024)"
@@ -4646,8 +4646,8 @@
       "j_apz": {
         "instanceId": "j_apz",
         "blockDefId": "set-var",
-        "x": 1330,
-        "y": 2520,
+        "x": 2165.52294921875,
+        "y": 2452,
         "inputValues": {
           "name": "_z",
           "value": "_tz"
@@ -4663,7 +4663,7 @@
       "j_dgrav": {
         "instanceId": "j_dgrav",
         "blockDefId": "custom-def-cb_grav",
-        "x": 2100,
+        "x": 3942.44775390625,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -4677,7 +4677,7 @@
       "j_ipulo": {
         "instanceId": "j_ipulo",
         "blockDefId": "if",
-        "x": 2100,
+        "x": 3942.44775390625,
         "y": 120,
         "inputValues": {},
         "parent": "j_dgrav",
@@ -4691,7 +4691,7 @@
       "j_andp": {
         "instanceId": "j_andp",
         "blockDefId": "operator-and",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 100,
         "inputValues": {},
         "parent": "j_ipulo",
@@ -4709,7 +4709,7 @@
       "j_kesp": {
         "instanceId": "j_kesp",
         "blockDefId": "key-pressed",
-        "x": 2200,
+        "x": 4042.44775390625,
         "y": 80,
         "inputValues": {
           "key": " "
@@ -4726,7 +4726,7 @@
       "j_eqch": {
         "instanceId": "j_eqch",
         "blockDefId": "operator-equals",
-        "x": 2200,
+        "x": 4042.44775390625,
         "y": 130,
         "inputValues": {
           "num1": "_noChao",
@@ -4744,7 +4744,7 @@
       "j_svy": {
         "instanceId": "j_svy",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 180,
         "inputValues": {
           "name": "_vy",
@@ -4761,7 +4761,7 @@
       "j_cvy": {
         "instanceId": "j_cvy",
         "blockDefId": "change-var",
-        "x": 2100,
+        "x": 3942.44775390625,
         "y": 270,
         "inputValues": {
           "name": "_vy",
@@ -4778,7 +4778,7 @@
       "j_ivmin": {
         "instanceId": "j_ivmin",
         "blockDefId": "if",
-        "x": 2100,
+        "x": 3942.44775390625,
         "y": 330,
         "inputValues": {},
         "parent": "j_cvy",
@@ -4792,7 +4792,7 @@
       "j_ltvy": {
         "instanceId": "j_ltvy",
         "blockDefId": "operator-lt",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 310,
         "inputValues": {
           "num1": "_vy",
@@ -4809,7 +4809,7 @@
       "j_svmin": {
         "instanceId": "j_svmin",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 390,
         "inputValues": {
           "name": "_vy",
@@ -4826,7 +4826,7 @@
       "j_cy": {
         "instanceId": "j_cy",
         "blockDefId": "change-var",
-        "x": 2100,
+        "x": 3942.44775390625,
         "y": 480,
         "inputValues": {
           "name": "_y",
@@ -4843,7 +4843,7 @@
       "j_spes2": {
         "instanceId": "j_spes2",
         "blockDefId": "set-var",
-        "x": 2100,
+        "x": 3942.44775390625,
         "y": 540,
         "inputValues": {
           "name": "_pes",
@@ -4860,7 +4860,7 @@
       "j_ichao": {
         "instanceId": "j_ichao",
         "blockDefId": "if-else",
-        "x": 2100,
+        "x": 3942.44775390625,
         "y": 600,
         "inputValues": {},
         "parent": "j_spes2",
@@ -4874,7 +4874,7 @@
       "j_andch": {
         "instanceId": "j_andch",
         "blockDefId": "operator-and",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 580,
         "inputValues": {},
         "parent": "j_ichao",
@@ -4892,7 +4892,7 @@
       "j_nvyp": {
         "instanceId": "j_nvyp",
         "blockDefId": "operator-not",
-        "x": 2200,
+        "x": 4042.44775390625,
         "y": 560,
         "inputValues": {},
         "parent": "j_andch",
@@ -4910,7 +4910,7 @@
       "j_gvy0": {
         "instanceId": "j_gvy0",
         "blockDefId": "operator-gt",
-        "x": 2270,
+        "x": 4112.44775390625,
         "y": 560,
         "inputValues": {
           "num1": "_vy",
@@ -4928,7 +4928,7 @@
       "j_vpes": {
         "instanceId": "j_vpes",
         "blockDefId": "map-has-global",
-        "x": 2200,
+        "x": 4042.44775390625,
         "y": 610,
         "inputValues": {
           "map": "solidos",
@@ -4947,7 +4947,7 @@
       "j_sch1": {
         "instanceId": "j_sch1",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 660,
         "inputValues": {
           "name": "_noChao",
@@ -4964,7 +4964,7 @@
       "j_svy0": {
         "instanceId": "j_svy0",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 720,
         "inputValues": {
           "name": "_vy",
@@ -4981,7 +4981,7 @@
       "j_ssnap": {
         "instanceId": "j_ssnap",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 780,
         "inputValues": {
           "name": "_snap"
@@ -5000,7 +5000,7 @@
       "j_rsnap": {
         "instanceId": "j_rsnap",
         "blockDefId": "operator-round",
-        "x": 2380,
+        "x": 4222.44775390625,
         "y": 760,
         "inputValues": {
           "num1": "(_pes - 5) / 100"
@@ -5017,7 +5017,7 @@
       "j_sy2": {
         "instanceId": "j_sy2",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 840,
         "inputValues": {
           "name": "_y",
@@ -5034,7 +5034,7 @@
       "j_sch0": {
         "instanceId": "j_sch0",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 930,
         "inputValues": {
           "name": "_noChao",
@@ -5051,7 +5051,7 @@
       "j_iqueda": {
         "instanceId": "j_iqueda",
         "blockDefId": "if",
-        "x": 2100,
+        "x": 3942.44775390625,
         "y": 1020,
         "inputValues": {},
         "parent": "j_ichao",
@@ -5065,7 +5065,7 @@
       "j_ltqueda": {
         "instanceId": "j_ltqueda",
         "blockDefId": "operator-lt",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 1000,
         "inputValues": {
           "num1": "_y",
@@ -5082,7 +5082,7 @@
       "j_rx": {
         "instanceId": "j_rx",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 1080,
         "inputValues": {
           "name": "_x",
@@ -5099,7 +5099,7 @@
       "j_rz": {
         "instanceId": "j_rz",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 1140,
         "inputValues": {
           "name": "_z",
@@ -5116,7 +5116,7 @@
       "j_ry": {
         "instanceId": "j_ry",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 1200,
         "inputValues": {
           "name": "_y",
@@ -5133,7 +5133,7 @@
       "j_rvy": {
         "instanceId": "j_rvy",
         "blockDefId": "set-var",
-        "x": 2130,
+        "x": 3972.44775390625,
         "y": 1260,
         "inputValues": {
           "name": "_vy",
@@ -5150,8 +5150,8 @@
       "j_dpub": {
         "instanceId": "j_dpub",
         "blockDefId": "custom-def-cb_pub",
-        "x": 2100,
-        "y": 1380,
+        "x": 3942.44775390625,
+        "y": 1129,
         "inputValues": {},
         "parent": null,
         "parentSlot": null,
@@ -5164,8 +5164,8 @@
       "j_pgoto": {
         "instanceId": "j_pgoto",
         "blockDefId": "goto-xyz-3d",
-        "x": 2100,
-        "y": 1460,
+        "x": 3942.44775390625,
+        "y": 1209,
         "inputValues": {
           "x": "_x",
           "y": "_y",
@@ -5182,8 +5182,8 @@
       "j_pcx": {
         "instanceId": "j_pcx",
         "blockDefId": "set-global-var",
-        "x": 2100,
-        "y": 1530,
+        "x": 3942.44775390625,
+        "y": 1279,
         "inputValues": {
           "name": "_camX",
           "value": "_x"
@@ -5199,8 +5199,8 @@
       "j_pcy": {
         "instanceId": "j_pcy",
         "blockDefId": "set-global-var",
-        "x": 2100,
-        "y": 1590,
+        "x": 3942.44775390625,
+        "y": 1339,
         "inputValues": {
           "name": "_camY",
           "value": "_y"
@@ -5216,8 +5216,8 @@
       "j_pcz": {
         "instanceId": "j_pcz",
         "blockDefId": "set-global-var",
-        "x": 2100,
-        "y": 1650,
+        "x": 3942.44775390625,
+        "y": 1399,
         "inputValues": {
           "name": "_camZ",
           "value": "_z"
@@ -5233,8 +5233,8 @@
       "j_pcyaw": {
         "instanceId": "j_pcyaw",
         "blockDefId": "set-global-var",
-        "x": 2100,
-        "y": 1710,
+        "x": 3942.44775390625,
+        "y": 1459,
         "inputValues": {
           "name": "_camYaw",
           "value": "_yaw"
@@ -5250,8 +5250,8 @@
       "j_pcpit": {
         "instanceId": "j_pcpit",
         "blockDefId": "set-global-var",
-        "x": 2100,
-        "y": 1770,
+        "x": 3942.44775390625,
+        "y": 1519,
         "inputValues": {
           "name": "_camPitch",
           "value": "_pitch"
@@ -5267,7 +5267,7 @@
       "j_dsel": {
         "instanceId": "j_dsel",
         "blockDefId": "custom-def-cb_sel",
-        "x": 2900,
+        "x": 5109.93603515625,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -5281,7 +5281,7 @@
       "j_s1": {
         "instanceId": "j_s1",
         "blockDefId": "if",
-        "x": 2900,
+        "x": 5109.93603515625,
         "y": 120,
         "inputValues": {},
         "parent": "j_dsel",
@@ -5295,7 +5295,7 @@
       "j_k1": {
         "instanceId": "j_k1",
         "blockDefId": "key-pressed",
-        "x": 2930,
+        "x": 5139.93603515625,
         "y": 100,
         "inputValues": {
           "key": "1"
@@ -5311,7 +5311,7 @@
       "j_st1": {
         "instanceId": "j_st1",
         "blockDefId": "set-global-var",
-        "x": 2930,
+        "x": 5139.93603515625,
         "y": 170,
         "inputValues": {
           "name": "_slot",
@@ -5328,7 +5328,7 @@
       "j_s2": {
         "instanceId": "j_s2",
         "blockDefId": "if",
-        "x": 2900,
+        "x": 5109.93603515625,
         "y": 260,
         "inputValues": {},
         "parent": "j_s1",
@@ -5342,7 +5342,7 @@
       "j_k2": {
         "instanceId": "j_k2",
         "blockDefId": "key-pressed",
-        "x": 2930,
+        "x": 5139.93603515625,
         "y": 240,
         "inputValues": {
           "key": "2"
@@ -5358,7 +5358,7 @@
       "j_st2": {
         "instanceId": "j_st2",
         "blockDefId": "set-global-var",
-        "x": 2930,
+        "x": 5139.93603515625,
         "y": 310,
         "inputValues": {
           "name": "_slot",
@@ -5375,7 +5375,7 @@
       "j_s3": {
         "instanceId": "j_s3",
         "blockDefId": "if",
-        "x": 2900,
+        "x": 5109.93603515625,
         "y": 400,
         "inputValues": {},
         "parent": "j_s2",
@@ -5389,7 +5389,7 @@
       "j_k3": {
         "instanceId": "j_k3",
         "blockDefId": "key-pressed",
-        "x": 2930,
+        "x": 5139.93603515625,
         "y": 380,
         "inputValues": {
           "key": "3"
@@ -5405,7 +5405,7 @@
       "j_st3": {
         "instanceId": "j_st3",
         "blockDefId": "set-global-var",
-        "x": 2930,
+        "x": 5139.93603515625,
         "y": 450,
         "inputValues": {
           "name": "_slot",
@@ -5422,7 +5422,7 @@
       "j_s4": {
         "instanceId": "j_s4",
         "blockDefId": "if",
-        "x": 2900,
+        "x": 5109.93603515625,
         "y": 540,
         "inputValues": {},
         "parent": "j_s3",
@@ -5436,7 +5436,7 @@
       "j_k4": {
         "instanceId": "j_k4",
         "blockDefId": "key-pressed",
-        "x": 2930,
+        "x": 5139.93603515625,
         "y": 520,
         "inputValues": {
           "key": "4"
@@ -5452,7 +5452,7 @@
       "j_st4": {
         "instanceId": "j_st4",
         "blockDefId": "set-global-var",
-        "x": 2930,
+        "x": 5139.93603515625,
         "y": 590,
         "inputValues": {
           "name": "_slot",
@@ -5469,7 +5469,7 @@
       "j_s5": {
         "instanceId": "j_s5",
         "blockDefId": "if",
-        "x": 2900,
+        "x": 5109.93603515625,
         "y": 680,
         "inputValues": {},
         "parent": "j_s4",
@@ -5483,7 +5483,7 @@
       "j_k5": {
         "instanceId": "j_k5",
         "blockDefId": "key-pressed",
-        "x": 2930,
+        "x": 5139.93603515625,
         "y": 660,
         "inputValues": {
           "key": "5"
@@ -5499,7 +5499,7 @@
       "j_st5": {
         "instanceId": "j_st5",
         "blockDefId": "set-global-var",
-        "x": 2930,
+        "x": 5139.93603515625,
         "y": 730,
         "inputValues": {
           "name": "_slot",
@@ -5516,7 +5516,7 @@
       "j_stipo": {
         "instanceId": "j_stipo",
         "blockDefId": "set-global-var",
-        "x": 2900,
+        "x": 5109.93603515625,
         "y": 830,
         "inputValues": {
           "name": "_tipo"
@@ -5535,7 +5535,7 @@
       "j_gnome": {
         "instanceId": "j_gnome",
         "blockDefId": "struct-get-struct_tipo",
-        "x": 3160,
+        "x": 5369.93603515625,
         "y": 810,
         "inputValues": {
           "path": "nome"
@@ -5555,7 +5555,7 @@
       "j_item1": {
         "instanceId": "j_item1",
         "blockDefId": "list-item-of-global",
-        "x": 3420,
+        "x": 5629.93603515625,
         "y": 810,
         "inputValues": {
           "index": "_G._slot",
@@ -5573,7 +5573,7 @@
       "j_sdem": {
         "instanceId": "j_sdem",
         "blockDefId": "set-global-var",
-        "x": 2900,
+        "x": 5109.93603515625,
         "y": 890,
         "inputValues": {
           "name": "_demora"
@@ -5592,7 +5592,7 @@
       "j_gdem": {
         "instanceId": "j_gdem",
         "blockDefId": "struct-get-struct_tipo",
-        "x": 3160,
+        "x": 5369.93603515625,
         "y": 870,
         "inputValues": {
           "path": "demora"
@@ -5612,7 +5612,7 @@
       "j_item2": {
         "instanceId": "j_item2",
         "blockDefId": "list-item-of-global",
-        "x": 3420,
+        "x": 5629.93603515625,
         "y": 870,
         "inputValues": {
           "index": "_G._slot",
@@ -5630,8 +5630,8 @@
       "j_dmin": {
         "instanceId": "j_dmin",
         "blockDefId": "custom-def-cb_minerar",
-        "x": 2900,
-        "y": 580,
+        "x": 5109.93603515625,
+        "y": 858,
         "inputValues": {},
         "parent": null,
         "parentSlot": null,
@@ -5644,8 +5644,8 @@
       "j_ie": {
         "instanceId": "j_ie",
         "blockDefId": "if",
-        "x": 2900,
-        "y": 660,
+        "x": 5109.93603515625,
+        "y": 938,
         "inputValues": {},
         "parent": "j_dmin",
         "parentSlot": "next",
@@ -5658,8 +5658,8 @@
       "j_ande": {
         "instanceId": "j_ande",
         "blockDefId": "operator-and",
-        "x": 2930,
-        "y": 640,
+        "x": 5139.93603515625,
+        "y": 918,
         "inputValues": {},
         "parent": "j_ie",
         "parentSlot": "condition",
@@ -5676,8 +5676,8 @@
       "j_ke": {
         "instanceId": "j_ke",
         "blockDefId": "key-pressed",
-        "x": 3000,
-        "y": 620,
+        "x": 5209.93603515625,
+        "y": 898,
         "inputValues": {
           "key": "e"
         },
@@ -5693,8 +5693,8 @@
       "j_eqe": {
         "instanceId": "j_eqe",
         "blockDefId": "operator-equals",
-        "x": 3000,
-        "y": 670,
+        "x": 5209.93603515625,
+        "y": 948,
         "inputValues": {
           "num1": "_travaE",
           "num2": "0"
@@ -5711,8 +5711,8 @@
       "j_mlock": {
         "instanceId": "j_mlock",
         "blockDefId": "set-var",
-        "x": 2930,
-        "y": 730,
+        "x": 5139.93603515625,
+        "y": 1008,
         "inputValues": {
           "name": "_travaE",
           "value": "1"
@@ -5728,8 +5728,8 @@
       "j_mhit": {
         "instanceId": "j_mhit",
         "blockDefId": "if",
-        "x": 2930,
-        "y": 790,
+        "x": 5139.93603515625,
+        "y": 1068,
         "inputValues": {},
         "parent": "j_mlock",
         "parentSlot": "next",
@@ -5742,8 +5742,8 @@
       "j_mfound": {
         "instanceId": "j_mfound",
         "blockDefId": "mira-achou",
-        "x": 2960,
-        "y": 770,
+        "x": 5169.93603515625,
+        "y": 1048,
         "inputValues": {},
         "parent": "j_mhit",
         "parentSlot": "condition",
@@ -5756,8 +5756,8 @@
       "j_mcx": {
         "instanceId": "j_mcx",
         "blockDefId": "set-global-var",
-        "x": 2960,
-        "y": 850,
+        "x": 5169.93603515625,
+        "y": 1128,
         "inputValues": {
           "name": "_mx"
         },
@@ -5775,8 +5775,8 @@
       "j_mrx": {
         "instanceId": "j_mrx",
         "blockDefId": "mira-x",
-        "x": 3200,
-        "y": 830,
+        "x": 5409.93603515625,
+        "y": 1108,
         "inputValues": {},
         "parent": "j_mcx",
         "parentSlot": "input",
@@ -5790,8 +5790,8 @@
       "j_mcy": {
         "instanceId": "j_mcy",
         "blockDefId": "set-global-var",
-        "x": 2960,
-        "y": 910,
+        "x": 5169.93603515625,
+        "y": 1188,
         "inputValues": {
           "name": "_my"
         },
@@ -5809,8 +5809,8 @@
       "j_mry": {
         "instanceId": "j_mry",
         "blockDefId": "mira-y",
-        "x": 3200,
-        "y": 890,
+        "x": 5409.93603515625,
+        "y": 1168,
         "inputValues": {},
         "parent": "j_mcy",
         "parentSlot": "input",
@@ -5824,8 +5824,8 @@
       "j_mcz": {
         "instanceId": "j_mcz",
         "blockDefId": "set-global-var",
-        "x": 2960,
-        "y": 970,
+        "x": 5169.93603515625,
+        "y": 1248,
         "inputValues": {
           "name": "_mz"
         },
@@ -5843,8 +5843,8 @@
       "j_mrz": {
         "instanceId": "j_mrz",
         "blockDefId": "mira-z",
-        "x": 3200,
-        "y": 950,
+        "x": 5409.93603515625,
+        "y": 1228,
         "inputValues": {},
         "parent": "j_mcz",
         "parentSlot": "input",
@@ -5858,8 +5858,8 @@
       "j_minc": {
         "instanceId": "j_minc",
         "blockDefId": "change-global-var",
-        "x": 2960,
-        "y": 1030,
+        "x": 5169.93603515625,
+        "y": 1308,
         "inputValues": {
           "name": "_mina",
           "value": "1"
@@ -5875,8 +5875,8 @@
       "j_ie0": {
         "instanceId": "j_ie0",
         "blockDefId": "if",
-        "x": 2900,
-        "y": 1130,
+        "x": 5109.93603515625,
+        "y": 1408,
         "inputValues": {},
         "parent": "j_ie",
         "parentSlot": "next",
@@ -5889,8 +5889,8 @@
       "j_note": {
         "instanceId": "j_note",
         "blockDefId": "operator-not",
-        "x": 2930,
-        "y": 1110,
+        "x": 5139.93603515625,
+        "y": 1388,
         "inputValues": {},
         "parent": "j_ie0",
         "parentSlot": "condition",
@@ -5906,8 +5906,8 @@
       "j_ke2": {
         "instanceId": "j_ke2",
         "blockDefId": "key-pressed",
-        "x": 2990,
-        "y": 1110,
+        "x": 5199.93603515625,
+        "y": 1388,
         "inputValues": {
           "key": "e"
         },
@@ -5923,8 +5923,8 @@
       "j_cte": {
         "instanceId": "j_cte",
         "blockDefId": "set-var",
-        "x": 2930,
-        "y": 1180,
+        "x": 5139.93603515625,
+        "y": 1458,
         "inputValues": {
           "name": "_travaE",
           "value": "0"
@@ -5940,7 +5940,7 @@
       "j_dcol": {
         "instanceId": "j_dcol",
         "blockDefId": "custom-def-cb_colocar",
-        "x": 3700,
+        "x": 5706.83740234375,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -5954,7 +5954,7 @@
       "j_qdec": {
         "instanceId": "j_qdec",
         "blockDefId": "if",
-        "x": 3700,
+        "x": 5706.83740234375,
         "y": 110,
         "inputValues": {},
         "parent": "j_dcol",
@@ -5968,7 +5968,7 @@
       "j_qgt0": {
         "instanceId": "j_qgt0",
         "blockDefId": "operator-gt",
-        "x": 3730,
+        "x": 5736.83740234375,
         "y": 90,
         "inputValues": {
           "num1": "_espera",
@@ -5985,7 +5985,7 @@
       "j_qdecv": {
         "instanceId": "j_qdecv",
         "blockDefId": "change-var",
-        "x": 3730,
+        "x": 5736.83740234375,
         "y": 160,
         "inputValues": {
           "name": "_espera",
@@ -6002,7 +6002,7 @@
       "j_iq": {
         "instanceId": "j_iq",
         "blockDefId": "if",
-        "x": 3700,
+        "x": 5706.83740234375,
         "y": 250,
         "inputValues": {},
         "parent": "j_qdec",
@@ -6016,7 +6016,7 @@
       "j_andq": {
         "instanceId": "j_andq",
         "blockDefId": "operator-and",
-        "x": 3730,
+        "x": 5736.83740234375,
         "y": 230,
         "inputValues": {},
         "parent": "j_iq",
@@ -6034,7 +6034,7 @@
       "j_andq2": {
         "instanceId": "j_andq2",
         "blockDefId": "operator-and",
-        "x": 3800,
+        "x": 5806.83740234375,
         "y": 210,
         "inputValues": {},
         "parent": "j_andq",
@@ -6053,7 +6053,7 @@
       "j_kq": {
         "instanceId": "j_kq",
         "blockDefId": "key-pressed",
-        "x": 3870,
+        "x": 5876.83740234375,
         "y": 190,
         "inputValues": {
           "key": "q"
@@ -6070,7 +6070,7 @@
       "j_eqq": {
         "instanceId": "j_eqq",
         "blockDefId": "operator-equals",
-        "x": 3870,
+        "x": 5876.83740234375,
         "y": 240,
         "inputValues": {
           "num1": "_travaQ",
@@ -6088,7 +6088,7 @@
       "j_nesp": {
         "instanceId": "j_nesp",
         "blockDefId": "operator-not",
-        "x": 3800,
+        "x": 5806.83740234375,
         "y": 280,
         "inputValues": {},
         "parent": "j_andq",
@@ -6106,7 +6106,7 @@
       "j_gesp": {
         "instanceId": "j_gesp",
         "blockDefId": "operator-gt",
-        "x": 3870,
+        "x": 5876.83740234375,
         "y": 280,
         "inputValues": {
           "num1": "_espera",
@@ -6124,7 +6124,7 @@
       "j_qlock": {
         "instanceId": "j_qlock",
         "blockDefId": "set-var",
-        "x": 3730,
+        "x": 5736.83740234375,
         "y": 190,
         "inputValues": {
           "name": "_travaQ",
@@ -6141,7 +6141,7 @@
       "j_qhit": {
         "instanceId": "j_qhit",
         "blockDefId": "if",
-        "x": 3730,
+        "x": 5736.83740234375,
         "y": 250,
         "inputValues": {},
         "parent": "j_qlock",
@@ -6155,7 +6155,7 @@
       "j_qfound": {
         "instanceId": "j_qfound",
         "blockDefId": "mira-achou",
-        "x": 3760,
+        "x": 5766.83740234375,
         "y": 230,
         "inputValues": {},
         "parent": "j_qhit",
@@ -6169,7 +6169,7 @@
       "j_qpx": {
         "instanceId": "j_qpx",
         "blockDefId": "set-var",
-        "x": 3760,
+        "x": 5766.83740234375,
         "y": 310,
         "inputValues": {
           "name": "_px"
@@ -6188,7 +6188,7 @@
       "j_qax": {
         "instanceId": "j_qax",
         "blockDefId": "operator-add",
-        "x": 4000,
+        "x": 6006.83740234375,
         "y": 290,
         "inputValues": {},
         "parent": "j_qpx",
@@ -6207,7 +6207,7 @@
       "j_qrx": {
         "instanceId": "j_qrx",
         "blockDefId": "mira-x",
-        "x": 4060,
+        "x": 6066.83740234375,
         "y": 270,
         "inputValues": {},
         "parent": "j_qax",
@@ -6222,7 +6222,7 @@
       "j_qnx": {
         "instanceId": "j_qnx",
         "blockDefId": "mira-nx",
-        "x": 4060,
+        "x": 6066.83740234375,
         "y": 320,
         "inputValues": {},
         "parent": "j_qax",
@@ -6237,7 +6237,7 @@
       "j_qpy": {
         "instanceId": "j_qpy",
         "blockDefId": "set-var",
-        "x": 3760,
+        "x": 5766.83740234375,
         "y": 370,
         "inputValues": {
           "name": "_py"
@@ -6256,7 +6256,7 @@
       "j_qay": {
         "instanceId": "j_qay",
         "blockDefId": "operator-add",
-        "x": 4000,
+        "x": 6006.83740234375,
         "y": 350,
         "inputValues": {},
         "parent": "j_qpy",
@@ -6275,7 +6275,7 @@
       "j_qry": {
         "instanceId": "j_qry",
         "blockDefId": "mira-y",
-        "x": 4060,
+        "x": 6066.83740234375,
         "y": 330,
         "inputValues": {},
         "parent": "j_qay",
@@ -6290,7 +6290,7 @@
       "j_qny": {
         "instanceId": "j_qny",
         "blockDefId": "mira-ny",
-        "x": 4060,
+        "x": 6066.83740234375,
         "y": 380,
         "inputValues": {},
         "parent": "j_qay",
@@ -6305,7 +6305,7 @@
       "j_qpz": {
         "instanceId": "j_qpz",
         "blockDefId": "set-var",
-        "x": 3760,
+        "x": 5766.83740234375,
         "y": 430,
         "inputValues": {
           "name": "_pz"
@@ -6324,7 +6324,7 @@
       "j_qaz": {
         "instanceId": "j_qaz",
         "blockDefId": "operator-add",
-        "x": 4000,
+        "x": 6006.83740234375,
         "y": 410,
         "inputValues": {},
         "parent": "j_qpz",
@@ -6343,7 +6343,7 @@
       "j_qrz": {
         "instanceId": "j_qrz",
         "blockDefId": "mira-z",
-        "x": 4060,
+        "x": 6066.83740234375,
         "y": 390,
         "inputValues": {},
         "parent": "j_qaz",
@@ -6358,7 +6358,7 @@
       "j_qnz": {
         "instanceId": "j_qnz",
         "blockDefId": "mira-nz",
-        "x": 4060,
+        "x": 6066.83740234375,
         "y": 440,
         "inputValues": {},
         "parent": "j_qaz",
@@ -6373,7 +6373,7 @@
       "j_qjx": {
         "instanceId": "j_qjx",
         "blockDefId": "set-var",
-        "x": 3760,
+        "x": 5766.83740234375,
         "y": 490,
         "inputValues": {
           "name": "_jx"
@@ -6392,7 +6392,7 @@
       "j_rjx": {
         "instanceId": "j_rjx",
         "blockDefId": "operator-round",
-        "x": 4000,
+        "x": 6006.83740234375,
         "y": 470,
         "inputValues": {
           "num1": "_x / 100"
@@ -6409,7 +6409,7 @@
       "j_qjz": {
         "instanceId": "j_qjz",
         "blockDefId": "set-var",
-        "x": 3760,
+        "x": 5766.83740234375,
         "y": 550,
         "inputValues": {
           "name": "_jz"
@@ -6428,7 +6428,7 @@
       "j_rjz": {
         "instanceId": "j_rjz",
         "blockDefId": "operator-round",
-        "x": 4000,
+        "x": 6006.83740234375,
         "y": 530,
         "inputValues": {
           "num1": "_z / 100"
@@ -6445,7 +6445,7 @@
       "j_qjyp": {
         "instanceId": "j_qjyp",
         "blockDefId": "set-var",
-        "x": 3760,
+        "x": 5766.83740234375,
         "y": 610,
         "inputValues": {
           "name": "_jyp"
@@ -6464,7 +6464,7 @@
       "j_rjyp": {
         "instanceId": "j_rjyp",
         "blockDefId": "operator-round",
-        "x": 4000,
+        "x": 6006.83740234375,
         "y": 590,
         "inputValues": {
           "num1": "(_y - 160) / 100"
@@ -6481,7 +6481,7 @@
       "j_qjyo": {
         "instanceId": "j_qjyo",
         "blockDefId": "set-var",
-        "x": 3760,
+        "x": 5766.83740234375,
         "y": 670,
         "inputValues": {
           "name": "_jyo"
@@ -6500,7 +6500,7 @@
       "j_rjyo": {
         "instanceId": "j_rjyo",
         "blockDefId": "operator-round",
-        "x": 4000,
+        "x": 6006.83740234375,
         "y": 650,
         "inputValues": {
           "num1": "_y / 100"
@@ -6517,7 +6517,7 @@
       "j_qlivre": {
         "instanceId": "j_qlivre",
         "blockDefId": "if",
-        "x": 3760,
+        "x": 5766.83740234375,
         "y": 740,
         "inputValues": {},
         "parent": "j_qjyo",
@@ -6531,7 +6531,7 @@
       "j_andlivre": {
         "instanceId": "j_andlivre",
         "blockDefId": "operator-and",
-        "x": 3790,
+        "x": 5796.83740234375,
         "y": 720,
         "inputValues": {},
         "parent": "j_qlivre",
@@ -6549,7 +6549,7 @@
       "j_nvazio": {
         "instanceId": "j_nvazio",
         "blockDefId": "operator-not",
-        "x": 3860,
+        "x": 5866.83740234375,
         "y": 700,
         "inputValues": {},
         "parent": "j_andlivre",
@@ -6567,7 +6567,7 @@
       "j_vocup": {
         "instanceId": "j_vocup",
         "blockDefId": "map-has-global",
-        "x": 3930,
+        "x": 5936.83740234375,
         "y": 700,
         "inputValues": {
           "map": "solidos",
@@ -6586,7 +6586,7 @@
       "j_nself": {
         "instanceId": "j_nself",
         "blockDefId": "operator-not",
-        "x": 3860,
+        "x": 5866.83740234375,
         "y": 760,
         "inputValues": {},
         "parent": "j_andlivre",
@@ -6604,7 +6604,7 @@
       "j_andself": {
         "instanceId": "j_andself",
         "blockDefId": "operator-and",
-        "x": 3930,
+        "x": 5936.83740234375,
         "y": 760,
         "inputValues": {},
         "parent": "j_nself",
@@ -6623,7 +6623,7 @@
       "j_andxz": {
         "instanceId": "j_andxz",
         "blockDefId": "operator-and",
-        "x": 4000,
+        "x": 6006.83740234375,
         "y": 740,
         "inputValues": {},
         "parent": "j_andself",
@@ -6642,7 +6642,7 @@
       "j_eqjx": {
         "instanceId": "j_eqjx",
         "blockDefId": "operator-equals",
-        "x": 4070,
+        "x": 6076.83740234375,
         "y": 720,
         "inputValues": {
           "num1": "_px",
@@ -6660,7 +6660,7 @@
       "j_eqjz": {
         "instanceId": "j_eqjz",
         "blockDefId": "operator-equals",
-        "x": 4070,
+        "x": 6076.83740234375,
         "y": 770,
         "inputValues": {
           "num1": "_pz",
@@ -6678,7 +6678,7 @@
       "j_oryy": {
         "instanceId": "j_oryy",
         "blockDefId": "operator-or",
-        "x": 4000,
+        "x": 6006.83740234375,
         "y": 820,
         "inputValues": {},
         "parent": "j_andself",
@@ -6697,7 +6697,7 @@
       "j_eqjyp": {
         "instanceId": "j_eqjyp",
         "blockDefId": "operator-equals",
-        "x": 4070,
+        "x": 6076.83740234375,
         "y": 800,
         "inputValues": {
           "num1": "_py",
@@ -6715,7 +6715,7 @@
       "j_eqjyo": {
         "instanceId": "j_eqjyo",
         "blockDefId": "operator-equals",
-        "x": 4070,
+        "x": 6076.83740234375,
         "y": 850,
         "inputValues": {
           "num1": "_py",
@@ -6733,7 +6733,7 @@
       "j_qsgx": {
         "instanceId": "j_qsgx",
         "blockDefId": "set-global-var",
-        "x": 3790,
+        "x": 5796.83740234375,
         "y": 910,
         "inputValues": {
           "name": "_gx",
@@ -6750,7 +6750,7 @@
       "j_qsgy": {
         "instanceId": "j_qsgy",
         "blockDefId": "set-global-var",
-        "x": 3790,
+        "x": 5796.83740234375,
         "y": 970,
         "inputValues": {
           "name": "_gy",
@@ -6767,7 +6767,7 @@
       "j_qsgz": {
         "instanceId": "j_qsgz",
         "blockDefId": "set-global-var",
-        "x": 3790,
+        "x": 5796.83740234375,
         "y": 1030,
         "inputValues": {
           "name": "_gz",
@@ -6784,7 +6784,7 @@
       "j_qclone": {
         "instanceId": "j_qclone",
         "blockDefId": "create-clone",
-        "x": 3790,
+        "x": 5796.83740234375,
         "y": 1090,
         "inputValues": {
           "target": "_G._tipo"
@@ -6800,7 +6800,7 @@
       "j_qcool": {
         "instanceId": "j_qcool",
         "blockDefId": "set-var",
-        "x": 3790,
+        "x": 5796.83740234375,
         "y": 1150,
         "inputValues": {
           "name": "_espera",
@@ -6817,7 +6817,7 @@
       "j_iq0": {
         "instanceId": "j_iq0",
         "blockDefId": "if",
-        "x": 3700,
+        "x": 5706.83740234375,
         "y": 1470,
         "inputValues": {},
         "parent": "j_iq",
@@ -6831,7 +6831,7 @@
       "j_notq": {
         "instanceId": "j_notq",
         "blockDefId": "operator-not",
-        "x": 3730,
+        "x": 5736.83740234375,
         "y": 1450,
         "inputValues": {},
         "parent": "j_iq0",
@@ -6848,7 +6848,7 @@
       "j_kq2": {
         "instanceId": "j_kq2",
         "blockDefId": "key-pressed",
-        "x": 3790,
+        "x": 5796.83740234375,
         "y": 1450,
         "inputValues": {
           "key": "q"
@@ -6865,7 +6865,7 @@
       "j_ctq": {
         "instanceId": "j_ctq",
         "blockDefId": "set-var",
-        "x": 3730,
+        "x": 5736.83740234375,
         "y": 1520,
         "inputValues": {
           "name": "_travaQ",
@@ -6916,7 +6916,7 @@
       "g_clo": {
         "instanceId": "g_clo",
         "blockDefId": "when-clone-starts",
-        "x": 420,
+        "x": 318.49755859375,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -6930,7 +6930,7 @@
       "g_scx": {
         "instanceId": "g_scx",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 318.49755859375,
         "y": 110,
         "inputValues": {
           "name": "_cx",
@@ -6947,7 +6947,7 @@
       "g_scy": {
         "instanceId": "g_scy",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 318.49755859375,
         "y": 170,
         "inputValues": {
           "name": "_cy",
@@ -6964,7 +6964,7 @@
       "g_scz": {
         "instanceId": "g_scz",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 318.49755859375,
         "y": 230,
         "inputValues": {
           "name": "_cz",
@@ -6981,7 +6981,7 @@
       "g_pos": {
         "instanceId": "g_pos",
         "blockDefId": "goto-xyz-3d",
-        "x": 420,
+        "x": 318.49755859375,
         "y": 290,
         "inputValues": {
           "x": "_G._gx * 100",
@@ -6999,7 +6999,7 @@
       "g_svm": {
         "instanceId": "g_svm",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 318.49755859375,
         "y": 350,
         "inputValues": {
           "name": "_vistoM",
@@ -7016,7 +7016,7 @@
       "g_loop": {
         "instanceId": "g_loop",
         "blockDefId": "forever",
-        "x": 420,
+        "x": 318.49755859375,
         "y": 410,
         "inputValues": {},
         "parent": "g_svm",
@@ -7030,7 +7030,7 @@
       "g_im": {
         "instanceId": "g_im",
         "blockDefId": "if",
-        "x": 450,
+        "x": 348.49755859375,
         "y": 490,
         "inputValues": {},
         "parent": "g_loop",
@@ -7044,7 +7044,7 @@
       "g_ifar": {
         "instanceId": "g_ifar",
         "blockDefId": "if",
-        "x": 450,
+        "x": 348.49755859375,
         "y": 780,
         "inputValues": {},
         "parent": "g_im",
@@ -7058,7 +7058,7 @@
       "g_or": {
         "instanceId": "g_or",
         "blockDefId": "operator-or",
-        "x": 480,
+        "x": 378.49755859375,
         "y": 760,
         "inputValues": {},
         "parent": "g_ifar",
@@ -7076,7 +7076,7 @@
       "g_gdx": {
         "instanceId": "g_gdx",
         "blockDefId": "operator-gt",
-        "x": 550,
+        "x": 448.49755859375,
         "y": 740,
         "inputValues": {
           "num2": "12"
@@ -7096,7 +7096,7 @@
       "g_absx": {
         "instanceId": "g_absx",
         "blockDefId": "operator-mathop",
-        "x": 620,
+        "x": 518.49755859375,
         "y": 740,
         "inputValues": {
           "op": "abs",
@@ -7114,7 +7114,7 @@
       "g_gdz": {
         "instanceId": "g_gdz",
         "blockDefId": "operator-gt",
-        "x": 550,
+        "x": 448.49755859375,
         "y": 790,
         "inputValues": {
           "num2": "12"
@@ -7134,7 +7134,7 @@
       "g_absz": {
         "instanceId": "g_absz",
         "blockDefId": "operator-mathop",
-        "x": 620,
+        "x": 518.49755859375,
         "y": 790,
         "inputValues": {
           "op": "abs",
@@ -7152,7 +7152,7 @@
       "g_del2": {
         "instanceId": "g_del2",
         "blockDefId": "delete-clone",
-        "x": 480,
+        "x": 378.49755859375,
         "y": 850,
         "inputValues": {},
         "parent": "auns_c085579b",
@@ -7166,7 +7166,7 @@
       "g_clm": {
         "instanceId": "g_clm",
         "blockDefId": "operator-lt",
-        "x": 480,
+        "x": 378.49755859375,
         "y": 470,
         "inputValues": {
           "num1": "_vistoM",
@@ -7183,7 +7183,7 @@
       "g_svm2": {
         "instanceId": "g_svm2",
         "blockDefId": "set-var",
-        "x": 480,
+        "x": 378.49755859375,
         "y": 540,
         "inputValues": {
           "name": "_vistoM",
@@ -7200,7 +7200,7 @@
       "g_imc": {
         "instanceId": "g_imc",
         "blockDefId": "if",
-        "x": 480,
+        "x": 378.49755859375,
         "y": 600,
         "inputValues": {},
         "parent": "g_svm2",
@@ -7214,7 +7214,7 @@
       "g_andm": {
         "instanceId": "g_andm",
         "blockDefId": "operator-and",
-        "x": 510,
+        "x": 408.49755859375,
         "y": 580,
         "inputValues": {},
         "parent": "g_imc",
@@ -7232,7 +7232,7 @@
       "g_am1": {
         "instanceId": "g_am1",
         "blockDefId": "operator-and",
-        "x": 540,
+        "x": 438.49755859375,
         "y": 560,
         "inputValues": {},
         "parent": "g_andm",
@@ -7251,7 +7251,7 @@
       "g_eqmx": {
         "instanceId": "g_eqmx",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 468.49755859375,
         "y": 540,
         "inputValues": {
           "num1": "_cx",
@@ -7269,7 +7269,7 @@
       "g_eqmy": {
         "instanceId": "g_eqmy",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 468.49755859375,
         "y": 580,
         "inputValues": {
           "num1": "_cy",
@@ -7287,7 +7287,7 @@
       "g_eqmz": {
         "instanceId": "g_eqmz",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 468.49755859375,
         "y": 620,
         "inputValues": {
           "num1": "_cz",
@@ -7305,7 +7305,7 @@
       "g_del": {
         "instanceId": "g_del",
         "blockDefId": "delete-clone",
-        "x": 510,
+        "x": 408.49755859375,
         "y": 670,
         "inputValues": {},
         "parent": "auns_27c90c70",
@@ -7319,7 +7319,7 @@
       "asol_58e4b2a2": {
         "instanceId": "asol_58e4b2a2",
         "blockDefId": "map-set-global",
-        "x": 40,
+        "x": -61.50244140625,
         "y": 160,
         "inputValues": {
           "map": "solidos",
@@ -7338,7 +7338,7 @@
       "auns_c085579b": {
         "instanceId": "auns_c085579b",
         "blockDefId": "map-delete-global",
-        "x": 480,
+        "x": 378.49755859375,
         "y": 840,
         "inputValues": {
           "map": "solidos",
@@ -7356,7 +7356,7 @@
       "auns_27c90c70": {
         "instanceId": "auns_27c90c70",
         "blockDefId": "map-delete-global",
-        "x": 510,
+        "x": 408.49755859375,
         "y": 660,
         "inputValues": {
           "map": "solidos",
@@ -7408,7 +7408,7 @@
       "t_clo": {
         "instanceId": "t_clo",
         "blockDefId": "when-clone-starts",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -7422,7 +7422,7 @@
       "t_scx": {
         "instanceId": "t_scx",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 110,
         "inputValues": {
           "name": "_cx",
@@ -7439,7 +7439,7 @@
       "t_scy": {
         "instanceId": "t_scy",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 170,
         "inputValues": {
           "name": "_cy",
@@ -7456,7 +7456,7 @@
       "t_scz": {
         "instanceId": "t_scz",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 230,
         "inputValues": {
           "name": "_cz",
@@ -7473,7 +7473,7 @@
       "t_pos": {
         "instanceId": "t_pos",
         "blockDefId": "goto-xyz-3d",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 290,
         "inputValues": {
           "x": "_G._gx * 100",
@@ -7491,7 +7491,7 @@
       "t_svm": {
         "instanceId": "t_svm",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 350,
         "inputValues": {
           "name": "_vistoM",
@@ -7508,7 +7508,7 @@
       "t_loop": {
         "instanceId": "t_loop",
         "blockDefId": "forever",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 410,
         "inputValues": {},
         "parent": "t_svm",
@@ -7522,7 +7522,7 @@
       "t_im": {
         "instanceId": "t_im",
         "blockDefId": "if",
-        "x": 450,
+        "x": 350.8505859375,
         "y": 490,
         "inputValues": {},
         "parent": "t_loop",
@@ -7536,7 +7536,7 @@
       "t_ifar": {
         "instanceId": "t_ifar",
         "blockDefId": "if",
-        "x": 450,
+        "x": 350.8505859375,
         "y": 780,
         "inputValues": {},
         "parent": "t_im",
@@ -7550,7 +7550,7 @@
       "t_or": {
         "instanceId": "t_or",
         "blockDefId": "operator-or",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 760,
         "inputValues": {},
         "parent": "t_ifar",
@@ -7568,7 +7568,7 @@
       "t_gdx": {
         "instanceId": "t_gdx",
         "blockDefId": "operator-gt",
-        "x": 550,
+        "x": 450.8505859375,
         "y": 740,
         "inputValues": {
           "num2": "12"
@@ -7588,7 +7588,7 @@
       "t_absx": {
         "instanceId": "t_absx",
         "blockDefId": "operator-mathop",
-        "x": 620,
+        "x": 520.8505859375,
         "y": 740,
         "inputValues": {
           "op": "abs",
@@ -7606,7 +7606,7 @@
       "t_gdz": {
         "instanceId": "t_gdz",
         "blockDefId": "operator-gt",
-        "x": 550,
+        "x": 450.8505859375,
         "y": 790,
         "inputValues": {
           "num2": "12"
@@ -7626,7 +7626,7 @@
       "t_absz": {
         "instanceId": "t_absz",
         "blockDefId": "operator-mathop",
-        "x": 620,
+        "x": 520.8505859375,
         "y": 790,
         "inputValues": {
           "op": "abs",
@@ -7644,7 +7644,7 @@
       "t_del2": {
         "instanceId": "t_del2",
         "blockDefId": "delete-clone",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 850,
         "inputValues": {},
         "parent": "auns_455b8b76",
@@ -7658,7 +7658,7 @@
       "t_clm": {
         "instanceId": "t_clm",
         "blockDefId": "operator-lt",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 470,
         "inputValues": {
           "num1": "_vistoM",
@@ -7675,7 +7675,7 @@
       "t_svm2": {
         "instanceId": "t_svm2",
         "blockDefId": "set-var",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 540,
         "inputValues": {
           "name": "_vistoM",
@@ -7692,7 +7692,7 @@
       "t_imc": {
         "instanceId": "t_imc",
         "blockDefId": "if",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 600,
         "inputValues": {},
         "parent": "t_svm2",
@@ -7706,7 +7706,7 @@
       "t_andm": {
         "instanceId": "t_andm",
         "blockDefId": "operator-and",
-        "x": 510,
+        "x": 410.8505859375,
         "y": 580,
         "inputValues": {},
         "parent": "t_imc",
@@ -7724,7 +7724,7 @@
       "t_am1": {
         "instanceId": "t_am1",
         "blockDefId": "operator-and",
-        "x": 540,
+        "x": 440.8505859375,
         "y": 560,
         "inputValues": {},
         "parent": "t_andm",
@@ -7743,7 +7743,7 @@
       "t_eqmx": {
         "instanceId": "t_eqmx",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 470.8505859375,
         "y": 540,
         "inputValues": {
           "num1": "_cx",
@@ -7761,7 +7761,7 @@
       "t_eqmy": {
         "instanceId": "t_eqmy",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 470.8505859375,
         "y": 580,
         "inputValues": {
           "num1": "_cy",
@@ -7779,7 +7779,7 @@
       "t_eqmz": {
         "instanceId": "t_eqmz",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 470.8505859375,
         "y": 620,
         "inputValues": {
           "num1": "_cz",
@@ -7797,7 +7797,7 @@
       "t_del": {
         "instanceId": "t_del",
         "blockDefId": "delete-clone",
-        "x": 510,
+        "x": 410.8505859375,
         "y": 670,
         "inputValues": {},
         "parent": "auns_68396624",
@@ -7811,7 +7811,7 @@
       "asol_03d7e0a8": {
         "instanceId": "asol_03d7e0a8",
         "blockDefId": "map-set-global",
-        "x": 40,
+        "x": -59.1494140625,
         "y": 160,
         "inputValues": {
           "map": "solidos",
@@ -7830,7 +7830,7 @@
       "auns_455b8b76": {
         "instanceId": "auns_455b8b76",
         "blockDefId": "map-delete-global",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 840,
         "inputValues": {
           "map": "solidos",
@@ -7848,7 +7848,7 @@
       "auns_68396624": {
         "instanceId": "auns_68396624",
         "blockDefId": "map-delete-global",
-        "x": 510,
+        "x": 410.8505859375,
         "y": 660,
         "inputValues": {
           "map": "solidos",
@@ -8392,7 +8392,7 @@
       "n_clo": {
         "instanceId": "n_clo",
         "blockDefId": "when-clone-starts",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -8406,7 +8406,7 @@
       "n_scx": {
         "instanceId": "n_scx",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 110,
         "inputValues": {
           "name": "_cx",
@@ -8423,7 +8423,7 @@
       "n_scy": {
         "instanceId": "n_scy",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 170,
         "inputValues": {
           "name": "_cy",
@@ -8440,7 +8440,7 @@
       "n_scz": {
         "instanceId": "n_scz",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 230,
         "inputValues": {
           "name": "_cz",
@@ -8457,7 +8457,7 @@
       "n_pos": {
         "instanceId": "n_pos",
         "blockDefId": "goto-xyz-3d",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 290,
         "inputValues": {
           "x": "_G._gx * 100",
@@ -8475,7 +8475,7 @@
       "n_svm": {
         "instanceId": "n_svm",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 350,
         "inputValues": {
           "name": "_vistoM",
@@ -8492,7 +8492,7 @@
       "n_loop": {
         "instanceId": "n_loop",
         "blockDefId": "forever",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 410,
         "inputValues": {},
         "parent": "n_svm",
@@ -8506,7 +8506,7 @@
       "n_im": {
         "instanceId": "n_im",
         "blockDefId": "if",
-        "x": 450,
+        "x": 350.8505859375,
         "y": 490,
         "inputValues": {},
         "parent": "n_loop",
@@ -8520,7 +8520,7 @@
       "n_clm": {
         "instanceId": "n_clm",
         "blockDefId": "operator-lt",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 470,
         "inputValues": {
           "num1": "_vistoM",
@@ -8537,7 +8537,7 @@
       "n_svm2": {
         "instanceId": "n_svm2",
         "blockDefId": "set-var",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 540,
         "inputValues": {
           "name": "_vistoM",
@@ -8554,7 +8554,7 @@
       "n_imc": {
         "instanceId": "n_imc",
         "blockDefId": "if",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 600,
         "inputValues": {},
         "parent": "n_svm2",
@@ -8568,7 +8568,7 @@
       "n_andm": {
         "instanceId": "n_andm",
         "blockDefId": "operator-and",
-        "x": 510,
+        "x": 410.8505859375,
         "y": 580,
         "inputValues": {},
         "parent": "n_imc",
@@ -8586,7 +8586,7 @@
       "n_am1": {
         "instanceId": "n_am1",
         "blockDefId": "operator-and",
-        "x": 540,
+        "x": 440.8505859375,
         "y": 560,
         "inputValues": {},
         "parent": "n_andm",
@@ -8605,7 +8605,7 @@
       "n_eqmx": {
         "instanceId": "n_eqmx",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 470.8505859375,
         "y": 540,
         "inputValues": {
           "num1": "_cx",
@@ -8623,7 +8623,7 @@
       "n_eqmy": {
         "instanceId": "n_eqmy",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 470.8505859375,
         "y": 580,
         "inputValues": {
           "num1": "_cy",
@@ -8641,7 +8641,7 @@
       "n_eqmz": {
         "instanceId": "n_eqmz",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 470.8505859375,
         "y": 620,
         "inputValues": {
           "num1": "_cz",
@@ -8659,7 +8659,7 @@
       "n_del": {
         "instanceId": "n_del",
         "blockDefId": "delete-clone",
-        "x": 510,
+        "x": 410.8505859375,
         "y": 670,
         "inputValues": {},
         "parent": "auns_0557d86b",
@@ -8673,7 +8673,7 @@
       "n_ifar": {
         "instanceId": "n_ifar",
         "blockDefId": "if",
-        "x": 450,
+        "x": 350.8505859375,
         "y": 780,
         "inputValues": {},
         "parent": "n_im",
@@ -8687,7 +8687,7 @@
       "n_or": {
         "instanceId": "n_or",
         "blockDefId": "operator-or",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 760,
         "inputValues": {},
         "parent": "n_ifar",
@@ -8705,7 +8705,7 @@
       "n_gdx": {
         "instanceId": "n_gdx",
         "blockDefId": "operator-gt",
-        "x": 550,
+        "x": 450.8505859375,
         "y": 740,
         "inputValues": {
           "num2": "12"
@@ -8725,7 +8725,7 @@
       "n_absx": {
         "instanceId": "n_absx",
         "blockDefId": "operator-mathop",
-        "x": 620,
+        "x": 520.8505859375,
         "y": 740,
         "inputValues": {
           "op": "abs",
@@ -8743,7 +8743,7 @@
       "n_gdz": {
         "instanceId": "n_gdz",
         "blockDefId": "operator-gt",
-        "x": 550,
+        "x": 450.8505859375,
         "y": 790,
         "inputValues": {
           "num2": "12"
@@ -8763,7 +8763,7 @@
       "n_absz": {
         "instanceId": "n_absz",
         "blockDefId": "operator-mathop",
-        "x": 620,
+        "x": 520.8505859375,
         "y": 790,
         "inputValues": {
           "op": "abs",
@@ -8781,7 +8781,7 @@
       "n_del2": {
         "instanceId": "n_del2",
         "blockDefId": "delete-clone",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 850,
         "inputValues": {},
         "parent": "auns_a9099768",
@@ -8795,7 +8795,7 @@
       "asol_f4ac31ee": {
         "instanceId": "asol_f4ac31ee",
         "blockDefId": "map-set-global",
-        "x": 40,
+        "x": -59.1494140625,
         "y": 160,
         "inputValues": {
           "map": "solidos",
@@ -8814,7 +8814,7 @@
       "auns_0557d86b": {
         "instanceId": "auns_0557d86b",
         "blockDefId": "map-delete-global",
-        "x": 510,
+        "x": 410.8505859375,
         "y": 660,
         "inputValues": {
           "map": "solidos",
@@ -8832,7 +8832,7 @@
       "auns_a9099768": {
         "instanceId": "auns_a9099768",
         "blockDefId": "map-delete-global",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 840,
         "inputValues": {
           "map": "solidos",
@@ -8884,7 +8884,7 @@
       "f_clo": {
         "instanceId": "f_clo",
         "blockDefId": "when-clone-starts",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 40,
         "inputValues": {},
         "parent": null,
@@ -8898,7 +8898,7 @@
       "f_scx": {
         "instanceId": "f_scx",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 110,
         "inputValues": {
           "name": "_cx",
@@ -8915,7 +8915,7 @@
       "f_scy": {
         "instanceId": "f_scy",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 170,
         "inputValues": {
           "name": "_cy",
@@ -8932,7 +8932,7 @@
       "f_scz": {
         "instanceId": "f_scz",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 230,
         "inputValues": {
           "name": "_cz",
@@ -8949,7 +8949,7 @@
       "f_pos": {
         "instanceId": "f_pos",
         "blockDefId": "goto-xyz-3d",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 290,
         "inputValues": {
           "x": "_G._gx * 100",
@@ -8967,7 +8967,7 @@
       "f_svm": {
         "instanceId": "f_svm",
         "blockDefId": "set-var",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 350,
         "inputValues": {
           "name": "_vistoM",
@@ -8984,7 +8984,7 @@
       "f_loop": {
         "instanceId": "f_loop",
         "blockDefId": "forever",
-        "x": 420,
+        "x": 320.8505859375,
         "y": 410,
         "inputValues": {},
         "parent": "f_svm",
@@ -8998,7 +8998,7 @@
       "f_im": {
         "instanceId": "f_im",
         "blockDefId": "if",
-        "x": 450,
+        "x": 350.8505859375,
         "y": 490,
         "inputValues": {},
         "parent": "f_loop",
@@ -9012,7 +9012,7 @@
       "f_clm": {
         "instanceId": "f_clm",
         "blockDefId": "operator-lt",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 470,
         "inputValues": {
           "num1": "_vistoM",
@@ -9029,7 +9029,7 @@
       "f_svm2": {
         "instanceId": "f_svm2",
         "blockDefId": "set-var",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 540,
         "inputValues": {
           "name": "_vistoM",
@@ -9046,7 +9046,7 @@
       "f_imc": {
         "instanceId": "f_imc",
         "blockDefId": "if",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 600,
         "inputValues": {},
         "parent": "f_svm2",
@@ -9060,7 +9060,7 @@
       "f_andm": {
         "instanceId": "f_andm",
         "blockDefId": "operator-and",
-        "x": 510,
+        "x": 410.8505859375,
         "y": 580,
         "inputValues": {},
         "parent": "f_imc",
@@ -9078,7 +9078,7 @@
       "f_am1": {
         "instanceId": "f_am1",
         "blockDefId": "operator-and",
-        "x": 540,
+        "x": 440.8505859375,
         "y": 560,
         "inputValues": {},
         "parent": "f_andm",
@@ -9097,7 +9097,7 @@
       "f_eqmx": {
         "instanceId": "f_eqmx",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 470.8505859375,
         "y": 540,
         "inputValues": {
           "num1": "_cx",
@@ -9115,7 +9115,7 @@
       "f_eqmy": {
         "instanceId": "f_eqmy",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 470.8505859375,
         "y": 580,
         "inputValues": {
           "num1": "_cy",
@@ -9133,7 +9133,7 @@
       "f_eqmz": {
         "instanceId": "f_eqmz",
         "blockDefId": "operator-equals",
-        "x": 570,
+        "x": 470.8505859375,
         "y": 620,
         "inputValues": {
           "num1": "_cz",
@@ -9151,7 +9151,7 @@
       "f_del": {
         "instanceId": "f_del",
         "blockDefId": "delete-clone",
-        "x": 510,
+        "x": 410.8505859375,
         "y": 670,
         "inputValues": {},
         "parent": "auns_5c9ab83e",
@@ -9165,7 +9165,7 @@
       "f_ifar": {
         "instanceId": "f_ifar",
         "blockDefId": "if",
-        "x": 450,
+        "x": 350.8505859375,
         "y": 780,
         "inputValues": {},
         "parent": "f_im",
@@ -9179,7 +9179,7 @@
       "f_or": {
         "instanceId": "f_or",
         "blockDefId": "operator-or",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 760,
         "inputValues": {},
         "parent": "f_ifar",
@@ -9197,7 +9197,7 @@
       "f_gdx": {
         "instanceId": "f_gdx",
         "blockDefId": "operator-gt",
-        "x": 550,
+        "x": 450.8505859375,
         "y": 740,
         "inputValues": {
           "num2": "12"
@@ -9217,7 +9217,7 @@
       "f_absx": {
         "instanceId": "f_absx",
         "blockDefId": "operator-mathop",
-        "x": 620,
+        "x": 520.8505859375,
         "y": 740,
         "inputValues": {
           "op": "abs",
@@ -9235,7 +9235,7 @@
       "f_gdz": {
         "instanceId": "f_gdz",
         "blockDefId": "operator-gt",
-        "x": 550,
+        "x": 450.8505859375,
         "y": 790,
         "inputValues": {
           "num2": "12"
@@ -9255,7 +9255,7 @@
       "f_absz": {
         "instanceId": "f_absz",
         "blockDefId": "operator-mathop",
-        "x": 620,
+        "x": 520.8505859375,
         "y": 790,
         "inputValues": {
           "op": "abs",
@@ -9273,7 +9273,7 @@
       "f_del2": {
         "instanceId": "f_del2",
         "blockDefId": "delete-clone",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 850,
         "inputValues": {},
         "parent": "auns_21577ea2",
@@ -9287,7 +9287,7 @@
       "asol_af548f26": {
         "instanceId": "asol_af548f26",
         "blockDefId": "map-set-global",
-        "x": 40,
+        "x": -59.1494140625,
         "y": 160,
         "inputValues": {
           "map": "solidos",
@@ -9306,7 +9306,7 @@
       "auns_5c9ab83e": {
         "instanceId": "auns_5c9ab83e",
         "blockDefId": "map-delete-global",
-        "x": 510,
+        "x": 410.8505859375,
         "y": 660,
         "inputValues": {
           "map": "solidos",
@@ -9324,7 +9324,7 @@
       "auns_21577ea2": {
         "instanceId": "auns_21577ea2",
         "blockDefId": "map-delete-global",
-        "x": 480,
+        "x": 380.8505859375,
         "y": 840,
         "inputValues": {
           "map": "solidos",
@@ -9345,57 +9345,57 @@
     "__scene__": {}
   },
   "actorGroupsMap": {},
-  "activeActorId": "actor_pedra",
+  "activeActorId": "actor_mira",
   "workspace": {
     "paneTree": {
       "type": "split",
-      "id": "pane_54",
+      "id": "pane_63",
       "direction": "row",
       "ratio": 0.15,
       "children": [
         {
           "type": "leaf",
-          "id": "pane_55",
+          "id": "pane_64",
           "moduleType": "palette"
         },
         {
           "type": "split",
-          "id": "pane_56",
+          "id": "pane_65",
           "direction": "row",
           "ratio": 0.6,
           "children": [
             {
               "type": "split",
-              "id": "pane_57",
+              "id": "pane_66",
               "direction": "col",
               "ratio": 0.78,
               "children": [
                 {
                   "type": "leaf",
-                  "id": "pane_58",
+                  "id": "pane_67",
                   "moduleType": "canvas"
                 },
                 {
                   "type": "leaf",
-                  "id": "pane_59",
+                  "id": "pane_68",
                   "moduleType": "actors"
                 }
               ]
             },
             {
               "type": "split",
-              "id": "pane_60",
+              "id": "pane_69",
               "direction": "col",
               "ratio": 0.5,
               "children": [
                 {
                   "type": "leaf",
-                  "id": "pane_61",
+                  "id": "pane_70",
                   "moduleType": "stage"
                 },
                 {
                   "type": "leaf",
-                  "id": "pane_62",
+                  "id": "pane_71",
                   "moduleType": "code"
                 }
               ]
@@ -9569,11 +9569,11 @@
     "__light_directional__"
   ],
   "sceneCamera": {
-    "x": -5614.977569005597,
-    "y": 1233.25,
-    "z": 2993.1456049437706,
-    "yaw": 4.223696789826278,
-    "pitch": -0.2792526803190927,
+    "x": 0,
+    "y": 910,
+    "z": 0,
+    "yaw": 3.141592653589793,
+    "pitch": 0,
     "fov": 1.0471975511965976,
     "projection": "perspective",
     "orthoSize": 360,
